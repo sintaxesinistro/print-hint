@@ -1,0 +1,57 @@
+Removed ===
+
+<div class="fullwidth-section bg-primary-dark">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<h1 class="color-white weight-300">What our customers say about 
+				us</h1>
+			</div>
+			<div id="carousel" class="carousel slide testimonial-slider">
+				-/- Indicators -/-
+				<ol class="carousel-indicators">
+					<li class="active" data-slide-to="0" data-target="#carousel">
+					</li>
+					<li data-slide-to="1" data-target="#carousel"></li>
+					<li data-slide-to="2" data-target="#carousel"></li>
+				</ol>
+				-/- Wrapper for slides -/-
+				<div class="carousel-inner">
+					-/- Slide 1 -/-
+					<div class="item active color-white">
+						<img alt="team image" class="user pull-left" src="img/#.jpg"><p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+						Integer ac vehicula tortor, vitae lacinia nisi. Mauris ac 
+						urna in dolor mollis tincidunt. Nulla eleifend nisl non 
+						viverra ornare. In cursus a urna non dapibus. In auctor 
+						mattis placerat. Aliquam tincidunt dignissim ullamcorper.</p>
+						<div class="source">
+							- Albert Einstein</div>
+					</div>
+					-/- Slide 2 -/-
+					<div class="item color-white">
+						<img alt="team image" class="user pull-left" src="img/#.jpg"><p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+						Integer ac vehicula tortor, vitae lacinia nisi. Mauris ac 
+						urna in dolor mollis tincidunt. Nulla eleifend nisl non 
+						viverra ornare. In cursus a urna non dapibus. In auctor 
+						mattis placerat. Aliquam tincidunt dignissim ullamcorper.</p>
+						<div class="source">
+							- Leonardo Davinci</div>
+					</div>
+					-/- Slide 3 -/-
+					<div class="item color-white">
+						<img alt="team image" class="user pull-left" src="img/#.jpg"><p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+						Integer ac vehicula tortor, vitae lacinia nisi. Mauris ac 
+						urna in dolor mollis tincidunt. Nulla eleifend nisl non 
+						viverra ornare. In cursus a urna non dapibus. In auctor 
+						mattis placerat. Aliquam tincidunt dignissim ullamcorper.</p>
+						<div class="source">
+							- Nicolaus Copernicus</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>-->
