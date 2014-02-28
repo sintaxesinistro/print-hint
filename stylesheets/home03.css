@@ -1,0 +1,64 @@
+/*HOME4.CSS*/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/*This is main CSS file that contains custom style rules used in this template*/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* Template Name: DIGNITY.*/
+/* Version: 1.3 Update Release*/
+/* Build Date: 7th Feb 2014*/
+/* For more info about this version please see update log: http://designova.net/changelog/dignity.pdf */
+/* Author: Designova.*/
+/* Website: http://www.designova.net */
+/* Copyright: (C) 2013 */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+#masthead{
+	background-color: transparent;
+}
+.intro-parallax-bg{
+	height: 100%;
+	background: #222 url('../images/bg/parallax-white.jpg') repeat;
+	/*activate this on mobiles*/
+	/*background: #222 url('../images/bg/parallax-image.jpg') center center repeat-y;*/
+	/*background-size: cover;
+	background-attachment: fixed;*/
+}
+#intro{
+	height: 100%;
+	background: url('../images/mask/raster.png') repeat;
+}
+.top-banner-caption-v9{
+	text-align: left;
+	display: block;
+	width: 50%;
+	padding: 50px;
+}
+.top-banner-caption-v9 h3{
+	color: #000;
+font-family:"OpenSansLight";
+	font-size: 14px;
+	line-height: 21px;
+	margin-bottom: 20px;
+}
+.top-banner-caption-v9 h3>span{
+	padding: 5px 10px;
+	background: #222;
+	color: #fff;
+}
+.top-banner-caption-v9 h1{
+	margin-top: 0px;
+	color: #000;
+font-family:"NexaBold";
+	text-transform: uppercase;
+	font-size: 96px;
+	font-weight: 100;
+}
+.btn-rounded-white{
+	color: #111 !important;
+	border: solid 2px #fff !important;
+	background: #fff !important;
+}
+.btn-rounded-white:hover{
+	color: #fff !important;
+	background: #000 !important;
+	border: solid 2px #000 !important;
+}

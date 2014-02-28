@@ -1,0 +1,111 @@
+
+/*Color Presets*/
+.color-high{
+	color: #141414;
+}
+.footer-top a:hover{
+	color: #141414;
+}
+
+.project-info-tag > span{
+	background: #141414;
+}
+#control_buttons a:hover {
+    color: #141414;
+border:solid 3px #141414;
+}
+#item_slider .flex-direction-nav li a:hover {
+    border: solid 2px #141414;
+    color: #141414;
+}
+div#portfolio_thumbs ul li div.item_info h3 {
+	background: #141414;
+}
+div#portfolio_thumbs ul li div.item_info {
+    background: #141414 url('../images/icons/open.png') center center no-repeat;
+}
+
+ul#portfolioFilter li.active-filter {
+     background: #141414;
+     border:solid 1px #141414;
+}
+
+ul#portfolioFilter li:hover {
+     background: #141414;
+     border:solid 1px #141414;
+}
+.owl-theme .owl-controls .owl-buttons div{
+	background: #141414;
+}
+.team-info{
+	border-bottom: 8px solid #141414;
+}
+.item:hover > a > .thumb-title{
+	background: #141414;
+}
+.services-expansion{
+	background: #141414;
+}
+.liner-small > span{
+	background: #141414;
+}
+
+.liner > span{
+	background: #141414;
+}
+.promo-heading{
+	border-top: solid 1px #141414;
+	border-bottom: solid 1px #141414;
+}
+.contact .alert{
+	background: #141414;
+}
+.cl-effect-10 a::before {
+	background: #141414;
+}
+.pace .pace-progress {
+  background: #141414;
+  }
+.menu a:hover {
+	background:#141414;
+}
+
+.top-banner-caption-v1 h3 > span{
+	border-bottom: solid 4px #141414;
+}
+.top-banner-caption-v2 h3 > span{
+	color: #fff;
+	background: #141414;
+}
+.top-banner-caption-v3 h3 > span{
+	color: #fff;
+	background: #141414;
+}
+.top-banner-caption-v4 h3 > span{
+	color: #fff;
+	background: #141414;
+}
+.top-banner-caption-v5 h3 > span{
+	color: #fff;
+	background: #141414;
+}
+.btn-rounded-color:hover{
+	color: #fff !important;
+	background: #141414 !important;
+	border: solid 2px #141414 !important;
+}
+
+.top-banner-caption-v6 h3 > span{
+	color: #fff;
+	background: #141414;
+}
+.btn-rounded-color2{
+	color: #fff !important;
+	background: #141414 !important;
+	border: solid 2px #141414 !important;
+}
+.btn-rounded-color2:hover{
+	color: #fff !important;
+	background: #121212 !important;
+	border: solid 2px #121212 !important;
+}

@@ -1,0 +1,142 @@
+
+/*Color Presets*/
+::selection {
+	background: @accent; /* Safari */
+	color: #121212;
+}
+::-moz-selection {
+	background: @accent; /* Firefox */
+	color: #121212;
+}
+.color-high{
+	color: @accent;
+}
+.footer-top a:hover{
+	color: @accent;
+}
+
+.project-info-tag > span{
+	background: @accent;
+}
+#control_buttons a:hover {
+    color: @accent;
+border:solid 3px @accent;
+}
+#item_slider .flex-direction-nav li a:hover {
+    border: solid 2px @accent;
+    color: @accent;
+}
+div#portfolio_thumbs ul li div.item_info h3 {
+	background: @accent;
+}
+div#portfolio_thumbs ul li div.item_info {
+    background: @accent url('../images/icons/open.png') center center no-repeat;
+}
+
+ul#portfolioFilter li.active-filter {
+     background: @accent;
+     border:solid 1px @accent;
+}
+
+ul#portfolioFilter li:hover {
+     background: @accent;
+     border:solid 1px @accent;
+}
+.owl-theme .owl-controls .owl-buttons div{
+	background: @accent;
+}
+.team-info{
+	border-bottom: 8px solid @accent;
+}
+.item:hover > a > .thumb-title{
+	background: @accent;
+}
+.services-expansion{
+	background: @accent;
+}
+.liner-small > span{
+	background: @accent;
+}
+
+.liner > span{
+	background: @accent;
+}
+.promo-heading{
+	border-top: solid 1px @accent;
+	border-bottom: solid 1px @accent;
+}
+.contact .alert{
+	background: @accent;
+}
+.cl-effect-10 a::before {
+	color: #000;
+	background: @accent;
+}
+.pace .pace-progress {
+  background: @accent;
+  color: #222;
+  }
+.menu a:hover {
+	background:@accent;
+}
+.top-banner-caption-v1 h3 > span{
+	border-bottom: solid 4px @accent;
+}
+.top-banner-caption-v2 h3 > span{
+	color: #000;
+	background: @accent;
+}
+.top-banner-caption-v3 h3 > span{
+	color: #000;
+	background: @accent;
+}
+.top-banner-caption-v4 h3 > span{
+	color: #000;
+	background: @accent;
+}
+.top-banner-caption-v5 h3 > span{
+	color: #000;
+	background: @accent;
+}
+.top-banner-caption-v9{
+	background: @accent !important;
+}
+.btn-rounded-color:hover{
+	color: #000 !important;
+	background: @accent !important;
+	border: solid 2px @accent !important;
+}
+.top-banner-caption-v6 h3 > span{
+	color: #000;
+	background: @accent;
+}
+.btn-rounded-color2{
+	color: #000 !important;
+	background: @accent !important;
+	border: solid 2px @accent !important;
+}
+.btn-rounded-color2:hover{
+	color: #fff !important;
+	background: #121212 !important;
+	border: solid 2px #121212 !important;
+}
+
+
+.services-icon-wrap > .service-icon.current{
+	background: url('../images/triangle-yellow.png') center bottom no-repeat;
+}
+
+.testimonial-carousel{
+	background: url('../images/bg/testimonials-yellow.jpg') center center repeat;
+}
+
+.standard-nav li > a.highlighted{
+	color: @accent !important;
+}
+
+.standard-nav li > a:hover{
+	color: @accent !important;
+}
+.det-overlay{
+	background: @accent url('../images/zoom.png') center center no-repeat;
+}

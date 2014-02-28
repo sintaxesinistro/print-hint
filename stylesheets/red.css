@@ -1,0 +1,141 @@
+
+/*Color Presets*/
+::selection {
+	background: #EE3B16; /* Safari */
+	color: #fff;
+}
+::-moz-selection {
+	background: #EE3B16; /* Firefox */
+	color: #fff;
+}
+.color-high{
+	color: #EE3B16;
+}
+.footer-top a:hover{
+	color: #EE3B16;
+}
+
+.project-info-tag > span{
+	background: #EE3B16;
+}
+#control_buttons a:hover {
+    color: #EE3B16;
+border:solid 3px #EE3B16;
+}
+#item_slider .flex-direction-nav li a:hover {
+    border: solid 2px #EE3B16;
+    color: #EE3B16;
+}
+div#portfolio_thumbs ul li div.item_info h3 {
+	background: #EE3B16;
+}
+div#portfolio_thumbs ul li div.item_info {
+    background: #EE3B16 url('../images/icons/open.png') center center no-repeat;
+}
+
+ul#portfolioFilter li.active-filter {
+     background: #EE3B16;
+     border:solid 1px #EE3B16;
+}
+
+ul#portfolioFilter li:hover {
+     background: #EE3B16;
+     border:solid 1px #EE3B16;
+}
+.owl-theme .owl-controls .owl-buttons div{
+	background: #EE3B16;
+}
+.team-info{
+	border-bottom: 8px solid #EE3B16;
+}
+.item:hover > a > .thumb-title{
+	background: #EE3B16;
+}
+.services-expansion{
+	background: #EE3B16;
+}
+.liner-small > span{
+	background: #EE3B16;
+}
+
+.liner > span{
+	background: #EE3B16;
+}
+.promo-heading{
+	border-top: solid 1px #EE3B16;
+	border-bottom: solid 1px #EE3B16;
+}
+.contact .alert{
+	background: #EE3B16;
+}
+.cl-effect-10 a::before {
+	background: #EE3B16;
+}
+.pace .pace-progress {
+  background: #EE3B16;
+  }
+.menu a:hover {
+	background:#EE3B16;
+}
+
+.top-banner-caption-v1 h3 > span{
+	border-bottom: solid 4px #EE3B16;
+}
+.top-banner-caption-v2 h3 > span{
+	color: #fff;
+	background: #EE3B16;
+}
+.top-banner-caption-v3 h3 > span{
+	color: #fff;
+	background: #EE3B16;
+}
+.top-banner-caption-v4 h3 > span{
+	color: #fff;
+	background: #EE3B16;
+}
+.top-banner-caption-v5 h3 > span{
+	color: #fff;
+	background: #EE3B16;
+}
+.top-banner-caption-v9{
+	background: #EE3B16 !important;
+}
+.btn-rounded-color:hover{
+	color: #fff !important;
+	background: #EE3B16 !important;
+	border: solid 2px #EE3B16 !important;
+}
+
+.top-banner-caption-v6 h3 > span{
+	color: #fff;
+	background: #EE3B16;
+}
+.btn-rounded-color2{
+	color: #fff !important;
+	background: #EE3B16 !important;
+	border: solid 2px #EE3B16 !important;
+}
+.btn-rounded-color2:hover{
+	color: #fff !important;
+	background: #121212 !important;
+	border: solid 2px #121212 !important;
+}
+
+.services-icon-wrap > .service-icon.current{
+	background: url('../images/triangle-red.png') center bottom no-repeat;
+}
+
+.testimonial-carousel{
+	background: url('../images/bg/testimonials-red.jpg') center center repeat;
+}
+
+.standard-nav li > a.highlighted{
+	color: #EE3B16 !important;
+}
+
+.standard-nav li > a:hover{
+	color: #EE3B16 !important;
+}
+.det-overlay{
+	background: #EE3B16 url('../images/zoom.png') center center no-repeat;
+}

@@ -1,0 +1,1524 @@
+/*MAIN-RESPONSIVE.CSS*/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/*This is main CSS file that contains responsive style rules used in this template*/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* Template Name: DIGNITY.*/
+/* Author: Designova.*/
+/* Website: http://www.designova.net */
+/* Copyright: (C) 2013 */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+/*==========================*/
+/*MOBILE DEVICE OPTIMIZATION*/
+/*===========================*/
+/*Huge Displays*/
+@media (min-width: 3000px) {
+	  .show-on-mobile-only{
+	 	display: none;
+	 	visibility: hidden;
+	 }
+	.top-caps6{
+		max-width:990px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+}
+
+/*Projector Screens and Ver Large Monitors*/
+@media (min-width: 2561px) {
+	  .show-on-mobile-only{
+	 	display: none;
+	 	visibility: hidden;
+	 }
+	.container, .service-details{
+	    max-width:990px;
+	}
+	div#portfolio_thumbs ul li{
+		width: 11.1%;
+	}
+	div#portfolio_thumbs ul li div.item_info p > span{
+		display: none;
+	}
+	.top-caps6{
+		max-width:990px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+}
+
+
+/*iMac 27, HD Screens and Large Monitors*/
+@media (min-width: 1921px) and (max-width: 2560px) {
+	  .show-on-mobile-only{
+	 	display: none;
+	 	visibility: hidden;
+	 }
+	.container, .service-details{
+	    max-width:990px;
+	}
+	div#portfolio_thumbs ul li{
+		width: 11.1%;
+	}
+	div#portfolio_thumbs ul li div.item_info p{
+		margin-top: 80px;
+	}
+	.top-caps6{
+		max-width:990px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+}
+
+
+/*Large Widescreen Monitors*/
+@media (max-width: 1920px) {
+	  .show-on-mobile-only{
+	 	display: none;
+	 	visibility: hidden;
+	 }
+	.container, .service-details{
+	    max-width:990px;
+	}
+	div#portfolio_thumbs ul li{
+		width: 16.6%;
+	}
+	div#portfolio_thumbs ul li div.item_info p{
+		margin-top: 130px;
+	}
+	.top-caps6{
+		max-width:990px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+
+}
+
+/*Medium Widescreen Monitors*/
+@media (max-width: 1680px) {
+	  .show-on-mobile-only{
+	 	display: none;
+	 	visibility: hidden;
+	 }
+	.container, .service-details{
+	    max-width:990px;
+	}
+	div#portfolio_thumbs ul li{
+		width: 16.6%;
+	}
+	div#portfolio_thumbs ul li div.item_info p{
+		margin-top: 100px;
+	}
+	.top-caps6{
+		max-width:990px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+}
+
+/*Large Widescreen Laptops*/
+@media (max-width: 1440px) {
+	  .show-on-mobile-only{
+	 	display: none;
+	 	visibility: hidden;
+	 }
+	.container, .service-details{
+	    max-width:990px;
+	}
+	div#portfolio_thumbs ul li{
+		width: 16.6%;
+	}
+	div#portfolio_thumbs ul li div.item_info p{
+		margin-top: 110px;
+	}
+	.top-caps6{
+		max-width:990px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+}
+
+/*Common Widescreen Laptops*/
+@media (max-width: 1366px) {
+	  .show-on-mobile-only{
+	 	display: none;
+	 	visibility: hidden;
+	 }
+	.container, .service-details{
+	    max-width:990px;
+	}
+	div#portfolio_thumbs ul li{
+		width: 20%;
+	}
+	div#portfolio_thumbs ul li div.item_info p{
+		margin-top: 120px;
+	}
+}
+
+
+/*Very Large Tablets and Medium Laptops*/
+@media (max-width: 1280px) {
+	 .show-on-mobile-only{
+	 	display: none;
+	 	visibility: hidden;
+	 }
+	.container, .service-details{
+	    max-width:990px;
+	}
+	div#portfolio_thumbs ul li{
+		width: 20%;
+	}
+	div#portfolio_thumbs ul li div.item_info p{
+		margin-top: 105px;
+	}
+	.top-caps6{
+		max-width:990px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+/*Notebooks and Small Laptops*/
+@media (max-width: 1152px) {
+	  .show-on-mobile-only{
+	 	display: none;
+	 	visibility: hidden;
+	 }
+	.container, .service-details{
+	    max-width:990px;
+	}
+	div#portfolio_thumbs ul li{
+		width: 25%;
+	}
+	div#portfolio_thumbs ul li div.item_info p{
+		margin-top: 130px;
+	}
+	.top-caps6{
+		max-width:990px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.top-banner-caption-v9 h1, .top-banner-caption-v4 h1, .top-banner-caption-v5 h1{
+		font-size: 72px;
+	}
+	.top-banner-caption-v6 h1{
+		font-size: 124px;
+	} 
+	.top-banner-caption-v2 h1{
+		font-size: 112px;
+	}
+	.top-banner-caption-v2 h3{
+		font-size: 48px;
+	}
+	.standard-spacing{
+		margin-left: 60px !important;
+	}
+}
+
+/*iPad Landscape Mode and Large Tablets */
+@media (max-width: 1024px) {
+	  .show-on-mobile-only{
+	 	display: none;
+	 	visibility: hidden;
+	 }
+	.container, .service-details{
+	    max-width:990px;
+	}
+	div#portfolio_thumbs ul li{
+		width: 25%;
+	}
+	div#portfolio_thumbs ul li div.item_info p{
+		margin-top: 105px;
+	}
+	.top-caps6{
+		max-width:990px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.top-banner-caption-v9 h1, .top-banner-caption-v4 h1, .top-banner-caption-v5 h1{
+		font-size: 72px;
+	}
+	.top-banner-caption-v6 h1{
+		font-size: 124px;
+	} 
+	.top-banner-caption-v2 h1{
+		font-size: 112px;
+	}
+	.top-banner-caption-v2 h3{
+		font-size: 48px;
+	}
+	.standard-spacing{
+		margin-left: 60px !important;
+	}
+
+}
+
+
+/*Small Desktop and Very Small Notebook */
+@media (max-width: 960px) {
+	  .hide-on-mobile-only{
+	 	display: none;
+	 	visibility: hidden;
+	 }
+	  .show-on-mobile-only{
+	 	display: block;
+	 	visibility: visible;
+	 }
+	 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
+	 	text-align: center;
+	 }
+	.container, .service-details{
+	    max-width:900px;
+	    padding-left: 30px;
+	    padding-right: 30px;
+	}
+
+	.super-heading {
+	    font-size: 36px;
+	    line-height: 43px;
+	}
+	.promo-heading {
+	    font-size: 32px;
+	    line-height: 37px;
+	}
+	.promo-text {
+	    font-size: 28px;
+	    line-height: 31px;
+	}
+	.main-heading {
+	    font-size: 32px;
+	    line-height: 39px;
+	}
+	.services-icon-wrap{
+		padding-bottom: 50px;
+	}
+	.services-icon-wrap > .service-icon{
+		float: left;
+		padding: 0;
+		width: 50%;
+	}
+	.services-icon-wrap > .service-icon > a > img{
+		width: 140px;
+		margin-top: 20px;
+	}
+	.services-icon-wrap > .service-icon > h5{
+		font-size: 20px;
+		line-height: 27px;
+	}
+	.services-icon-wrap > .service-icon.current{
+		background: transparent;
+	}
+	.sub-heading {
+	    font-size: 24px;
+	    line-height: 21px;
+	    margin-bottom: 10px;
+	}
+	.small-heading {
+	    margin-bottom: 20px;
+	}
+	.small-heading > span {
+	    font-size: 16px;
+	    line-height: 23px;
+	    border:none;
+	    color: #000;
+	}
+	.team-info{
+		margin: 0 2%;
+		width: 46%;
+		float: left;
+		margin-bottom: 20px;
+	}
+	.testimonial-carousel{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.testimonial-user > span{
+		font-size: 12px;
+		line-height: 19px;
+	}
+	div#portfolio_thumbs ul li{
+		width: 33.3%;
+	}
+	
+	#text_content h3 {
+	    font-size: 32px;
+	    line-height: 39px;
+	}
+	ul#portfolioFilter{
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+	ul#portfolioFilter li{
+		line-height: 24px;
+		margin-bottom: 5px;
+	}
+	.logo-emblem > img{
+		width: 96px;
+	}
+	#submit{
+		margin-top: 30px;
+	}
+	#intro{
+		text-align: center !important;
+	}
+	.top-banner-caption-v6{
+		padding: 0 20px;
+	}
+	.top-banner-caption-v6 h1{
+		font-size: 64px;
+		line-height: 71px;
+	}
+	.top-banner-caption-v1 h3 > span {
+	    font-size: 48px;
+	    line-height: 55px;
+	}
+	.top-banner-caption-v1 h1, .top-banner-caption-v5 h1, .top-banner-caption-v4 h1, .top-banner-caption-v9 h1{
+		font-size: 72px;
+		line-height: 79px;
+	}
+	.top-banner-caption-v2 h3{
+		font-size: 24px;
+		line-height: 31px;
+	}
+	.top-banner-caption-v2 h3 > span{
+		padding-bottom: 8px;
+	}
+	.top-banner-caption-v2 h1{
+		font-size: 56px;
+		line-height: 63px;
+	}
+	.top-banner-caption-v5{
+		width: 100%;
+		margin-left: 0;
+	}
+	.top-banner-caption-v3 h1{
+		font-size:56px;
+	}
+	.top-banner-caption-v3 h3 > span{
+		background: transparent;
+	}
+	.top-banner-caption-v4, .top-banner-caption-v9{
+		width: 100%;
+		margin-left: 0;
+	}
+	div#portfolio_thumbs ul li div.item_info p{
+		margin-top: 160px;
+	}
+	.standard-spacing{
+		margin-left: 60px !important;
+	}
+}
+
+
+/*Medium Tablets */
+@media (max-width: 800px) {
+	  .hide-on-mobile-only{
+	 	display: none;
+	 	visibility: hidden;
+	 }
+	  .show-on-mobile-only{
+	 	display: block;
+	 	visibility: visible;
+	 }
+	 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
+	 	text-align: center;
+	 }
+	.container, .service-details{
+	    max-width: 740px;
+	    padding-left: 30px;
+	    padding-right: 30px;
+	}
+
+	.super-heading {
+	    font-size: 36px;
+	    line-height: 43px;
+	}
+	.promo-heading {
+	    font-size: 32px;
+	    line-height: 37px;
+	}
+	.promo-text {
+	    font-size: 28px;
+	    line-height: 31px;
+	}
+	.main-heading {
+	    font-size: 32px;
+	    line-height: 39px;
+	}
+	.services-icon-wrap{
+		padding-bottom: 50px;
+	}
+	.services-icon-wrap > .service-icon{
+		float: left;
+		padding: 0;
+		width: 50%;
+	}
+	.services-icon-wrap > .service-icon > a > img{
+		width: 140px;
+		margin-top: 20px;
+	}
+	.services-icon-wrap > .service-icon > h5{
+		font-size: 20px;
+		line-height: 27px;
+	}
+	.services-icon-wrap > .service-icon.current{
+		background: transparent;
+	}
+	.sub-heading {
+	    font-size: 24px;
+	    line-height: 21px;
+	    margin-bottom: 10px;
+	}
+	.small-heading {
+	    margin-bottom: 20px;
+	}
+	.small-heading > span {
+	    font-size: 16px;
+	    line-height: 23px;
+	    border:none;
+	    color: #000;
+	}
+	.team-info{
+		margin: 0 2%;
+		width: 46%;
+		float: left;
+		margin-bottom: 20px;
+	}
+	.testimonial-carousel{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.testimonial-user > span{
+		font-size: 12px;
+		line-height: 19px;
+	}
+	div#portfolio_thumbs ul li{
+		width: 33.3%;
+	}
+	
+	#text_content h3 {
+	    font-size: 32px;
+	    line-height: 39px;
+	}
+	ul#portfolioFilter{
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+	ul#portfolioFilter li{
+		line-height: 24px;
+		margin-bottom: 5px;
+	}
+	.logo-emblem > img{
+		width: 96px;
+	}
+	#submit{
+		margin-top: 30px;
+	}
+	#intro{
+		text-align: center !important;
+	}
+	.top-banner-caption-v6{
+		padding: 0 20px;
+	}
+	.top-banner-caption-v6 h1{
+		font-size: 64px;
+		line-height: 71px;
+	}
+	.top-banner-caption-v1 h3 > span {
+	    font-size: 48px;
+	    line-height: 55px;
+	}
+	.top-banner-caption-v1 h1, .top-banner-caption-v5 h1, .top-banner-caption-v4 h1, .top-banner-caption-v9 h1{
+		font-size: 72px;
+		line-height: 79px;
+	}
+	.top-banner-caption-v2 h3{
+		font-size: 24px;
+		line-height: 31px;
+	}
+	.top-banner-caption-v2 h3 > span{
+		padding-bottom: 8px;
+	}
+	.top-banner-caption-v2 h1{
+		font-size: 56px;
+		line-height: 63px;
+	}
+	.top-banner-caption-v5{
+		width: 100%;
+		margin-left: 0;
+	}
+	.top-banner-caption-v3 h1{
+		font-size:56px;
+	}
+	.top-banner-caption-v3 h3 > span{
+		background: transparent;
+	}
+	.top-banner-caption-v4, .top-banner-caption-v9{
+		width: 100%;
+		margin-left: 0;
+	}
+	div#portfolio_thumbs ul li div.item_info p{
+		margin-top: 110px;
+	}
+	.standard-spacing{
+		margin-left: 60px !important;
+	}
+}
+
+
+/*iPad Portrait Mode, iPad Mini and Small Tablets */
+@media (max-width: 768px) {
+	 .hide-on-mobile-only{
+	 	display: none;
+	 	visibility: hidden;
+	 }
+	  .show-on-mobile-only{
+	 	display: block;
+	 	visibility: visible;
+	 }
+	 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
+	 	text-align: center;
+	 }
+	.container, .service-details{
+	    max-width: 718px;
+	    padding-left: 30px;
+	    padding-right: 30px;
+	}
+
+	.super-heading {
+	    font-size: 36px;
+	    line-height: 43px;
+	}
+	.promo-heading {
+	    font-size: 32px;
+	    line-height: 37px;
+	}
+	.promo-text {
+	    font-size: 28px;
+	    line-height: 31px;
+	}
+	.main-heading {
+	    font-size: 32px;
+	    line-height: 39px;
+	}
+	.services-icon-wrap{
+		padding-bottom: 50px;
+	}
+	.services-icon-wrap > .service-icon{
+		float: left;
+		padding: 0;
+		width: 50%;
+	}
+	.services-icon-wrap > .service-icon > a > img{
+		width: 140px;
+		margin-top: 20px;
+	}
+	.services-icon-wrap > .service-icon > h5{
+		font-size: 20px;
+		line-height: 27px;
+	}
+	.services-icon-wrap > .service-icon.current{
+		background: transparent;
+	}
+	.sub-heading {
+	    font-size: 24px;
+	    line-height: 21px;
+	    margin-bottom: 10px;
+	}
+	.small-heading {
+	    margin-bottom: 20px;
+	}
+	.small-heading > span {
+	    font-size: 16px;
+	    line-height: 23px;
+	    border:none;
+	    color: #000;
+	}
+	.team-info{
+		margin: 0 2%;
+		width: 46%;
+		float: left;
+		margin-bottom: 20px;
+	}
+	.testimonial-carousel{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.testimonial-user > span{
+		font-size: 12px;
+		line-height: 19px;
+	}
+	div#portfolio_thumbs ul li{
+		width: 33.3%;
+	}
+	
+	#text_content h3 {
+	    font-size: 32px;
+	    line-height: 39px;
+	}
+	ul#portfolioFilter{
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+	ul#portfolioFilter li{
+		line-height: 24px;
+		margin-bottom: 5px;
+	}
+	.logo-emblem > img{
+		width: 96px;
+	}
+	#submit{
+		margin-top: 30px;
+	}
+	#intro{
+		text-align: center !important;
+	}
+	.top-banner-caption-v6{
+		padding: 0 20px;
+	}
+	.top-banner-caption-v6 h1{
+		font-size: 64px;
+		line-height: 71px;
+	}
+	.top-banner-caption-v1 h3 > span {
+	    font-size: 48px;
+	    line-height: 55px;
+	}
+	.top-banner-caption-v1 h1, .top-banner-caption-v5 h1, .top-banner-caption-v4 h1, .top-banner-caption-v9 h1{
+		font-size: 72px;
+		line-height: 79px;
+	}
+	.top-banner-caption-v2 h3{
+		font-size: 24px;
+		line-height: 31px;
+	}
+	.top-banner-caption-v2 h3 > span{
+		padding-bottom: 8px;
+	}
+	.top-banner-caption-v2 h1{
+		font-size: 56px;
+		line-height: 63px;
+	}
+	.top-banner-caption-v5{
+		width: 100%;
+		margin-left: 0;
+	}
+	.top-banner-caption-v3 h1{
+		font-size:56px;
+	}
+	.top-banner-caption-v3 h3 > span{
+		background: transparent;
+	}
+	.top-banner-caption-v4, .top-banner-caption-v9{
+		width: 100%;
+		margin-left: 0;
+	}
+	div#portfolio_thumbs ul li div.item_info p{
+		margin-top: 100px;
+	}
+	.standard-spacing{
+		margin-left: 60px !important;
+	}
+
+}
+
+
+/*Medium Smart Phones v2*/
+@media screen and (max-width: 640px) {
+	.hide-on-mobile-only{
+	 	display: none;
+	 	visibility: hidden;
+	 }
+	  .show-on-mobile-only{
+	 	display: block;
+	 	visibility: visible;
+	 }
+	 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
+	 	text-align: center;
+	 }
+	.container, .service-details{
+	    max-width: 560px;
+	    padding-left: 20px;
+	    padding-right: 20px;
+	}
+
+	.super-heading {
+	    font-size: 32px;
+	    line-height: 39px;
+	}
+	.promo-heading {
+	    font-size: 28px;
+	    line-height: 35px;
+	}
+	.promo-text {
+	    font-size: 24px;
+	    line-height: 31px;
+	}
+	.main-heading {
+	    font-size: 28px;
+	    line-height: 35px;
+	}
+	.services-icon-wrap{
+		padding-bottom: 50px;
+	}
+	.services-icon-wrap > .service-icon{
+		float: left;
+		padding: 0;
+		width: 50%;
+	}
+	.services-icon-wrap > .service-icon > a > img{
+		width: 80px;
+	}
+	.services-icon-wrap > .service-icon > h5{
+		font-size: 14px;
+		line-height: 21px;
+	}
+	.services-icon-wrap > .service-icon.current{
+		background: transparent;
+	}
+	.sub-heading {
+	    font-size: 24px;
+	    line-height: 21px;
+	    margin-bottom: 10px;
+	}
+	.small-heading {
+	    margin-bottom: 20px;
+	}
+	.small-heading > span {
+	    font-size: 16px;
+	    line-height: 23px;
+	    border:none;
+	    color: #000;
+	}
+	.team-info{
+		margin: 0 2%;
+		width: 46%;
+		float: left;
+		margin-bottom: 20px;
+	}
+	.testimonial-carousel{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.testimonial-user > span{
+		font-size: 12px;
+		line-height: 19px;
+	}
+	div#portfolio_thumbs ul li{
+		width: 50%;
+	}
+	
+	#text_content h3 {
+	    font-size: 32px;
+	    line-height: 39px;
+	}
+	ul#portfolioFilter{
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+	ul#portfolioFilter li{
+		line-height: 24px;
+		margin-bottom: 5px;
+	}
+	.logo-emblem > img{
+		width: 96px;
+	}
+	#submit{
+		margin-top: 30px;
+	}
+	#intro{
+		text-align: center !important;
+	}
+	.top-banner-caption-v6{
+		padding: 0 20px;
+	}
+	.top-banner-caption-v6 h1{
+		font-size: 48px;
+		line-height: 55px;
+	}
+	.top-banner-caption-v1 h3 > span {
+	    font-size: 32px;
+	    line-height: 38px;
+	}
+	.top-banner-caption-v1 h1, .top-banner-caption-v5 h1, .top-banner-caption-v4 h1, .top-banner-caption-v9 h1{
+		font-size: 64px;
+		line-height: 71px;
+	}
+	.top-banner-caption-v2 h3{
+		font-size: 18px;
+		line-height: 28px;
+	}
+	.top-banner-caption-v2 h3 > span{
+		padding-bottom: 8px;
+	}
+	.top-banner-caption-v2 h1{
+		font-size: 48px;
+		line-height: 55px;
+	}
+	.top-banner-caption-v5{
+		width: 100%;
+		margin-left: 0;
+	}
+	.top-banner-caption-v3 h1{
+		font-size: 48px;
+	}
+	.top-banner-caption-v3 h3 > span{
+		background: transparent;
+	}
+	.top-banner-caption-v4, .top-banner-caption-v9{
+		width: 100%;
+		margin-left: 0;
+	}
+	div#portfolio_thumbs ul li div.item_info p{
+		margin-top: 160px;
+	}
+} 
+
+/*Google Nexus and Other Large Smart Phones v1*/
+@media screen and (max-width: 600px) {
+	.hide-on-mobile-only{
+	 	display: none;
+	 	visibility: hidden;
+	 }
+	  .show-on-mobile-only{
+	 	display: block;
+	 	visibility: visible;
+	 }
+	 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
+	 	text-align: center;
+	 }
+	.container, .service-details{
+	    max-width: 560px;
+	    padding-left: 20px;
+	    padding-right: 20px;
+	}
+
+	.super-heading {
+	    font-size: 32px;
+	    line-height: 39px;
+	}
+	.promo-heading {
+	    font-size: 28px;
+	    line-height: 35px;
+	}
+	.promo-text {
+	    font-size: 24px;
+	    line-height: 31px;
+	}
+	.main-heading {
+	    font-size: 28px;
+	    line-height: 35px;
+	}
+	.services-icon-wrap{
+		padding-bottom: 50px;
+	}
+	.services-icon-wrap > .service-icon{
+		float: left;
+		padding: 0;
+		width: 50%;
+	}
+	.services-icon-wrap > .service-icon > a > img{
+		width: 80px;
+	}
+	.services-icon-wrap > .service-icon > h5{
+		font-size: 14px;
+		line-height: 21px;
+	}
+	.services-icon-wrap > .service-icon.current{
+		background: transparent;
+	}
+	.sub-heading {
+	    font-size: 24px;
+	    line-height: 21px;
+	    margin-bottom: 10px;
+	}
+	.small-heading {
+	    margin-bottom: 20px;
+	}
+	.small-heading > span {
+	    font-size: 16px;
+	    line-height: 23px;
+	    border:none;
+	    color: #000;
+	}
+	.team-info{
+		margin: 0 2%;
+		width: 46%;
+		float: left;
+		margin-bottom: 20px;
+	}
+	.testimonial-carousel{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.testimonial-user > span{
+		font-size: 12px;
+		line-height: 19px;
+	}
+	div#portfolio_thumbs ul li{
+		width: 50%;
+	}
+	
+	#text_content h3 {
+	    font-size: 32px;
+	    line-height: 39px;
+	}
+	ul#portfolioFilter{
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+	ul#portfolioFilter li{
+		line-height: 24px;
+		margin-bottom: 5px;
+	}
+	.logo-emblem > img{
+		width: 96px;
+	}
+	#submit{
+		margin-top: 30px;
+	}
+	#intro{
+		text-align: center !important;
+	}
+	.top-banner-caption-v6{
+		padding: 0 20px;
+	}
+	.top-banner-caption-v6 h1{
+		font-size: 48px;
+		line-height: 55px;
+	}
+	.top-banner-caption-v1 h3 > span {
+	    font-size: 32px;
+	    line-height: 38px;
+	}
+	.top-banner-caption-v1 h1, .top-banner-caption-v5 h1, .top-banner-caption-v4 h1, .top-banner-caption-v9 h1{
+		font-size: 64px;
+		line-height: 71px;
+	}
+	.top-banner-caption-v2 h3{
+		font-size: 18px;
+		line-height: 28px;
+	}
+	.top-banner-caption-v2 h3 > span{
+		padding-bottom: 8px;
+	}
+	.top-banner-caption-v2 h1{
+		font-size: 48px;
+		line-height: 55px;
+	}
+	.top-banner-caption-v5{
+		width: 100%;
+		margin-left: 0;
+	}
+	.top-banner-caption-v3 h1{
+		font-size: 48px;
+	}
+	.top-banner-caption-v3 h3 > span{
+		background: transparent;
+	}
+	.top-banner-caption-v4, .top-banner-caption-v9{
+		width: 100%;
+		margin-left: 0;
+	}
+	div#portfolio_thumbs ul li div.item_info p{
+		margin-top: 140px;
+	}
+	.btn-rounded {
+	    font-size: 16px;
+	    padding: 8px 13px;
+	}
+} 
+
+/*iPhone Landscape Mode and Mediium Smart Phones*/
+@media screen and (max-width: 480px) {
+	.hide-on-mobile-only{
+	 	display: none;
+	 	visibility: hidden;
+	 }
+	  .show-on-mobile-only{
+	 	display: block;
+	 	visibility: visible;
+	 }
+	 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
+	 	text-align: center;
+	 }
+	.container, .service-details{
+	    max-width: 440px;
+	    padding-left: 20px;
+	    padding-right: 20px;
+	}
+
+	.super-heading {
+	    font-size: 24px;
+	    line-height: 31px;
+	}
+	.promo-heading {
+	    font-size: 20px;
+	    line-height: 27px;
+	}
+	.promo-text {
+	    font-size: 16px;
+	    line-height: 23px;
+	}
+	.main-heading {
+	    font-size: 24px;
+	    line-height: 31px;
+	}
+	.services-icon-wrap{
+		padding-bottom: 50px;
+	}
+	.services-icon-wrap > .service-icon{
+		float: left;
+		padding: 0;
+		width: 50%;
+	}
+	.services-icon-wrap > .service-icon > a > img{
+		width: 80px;
+	}
+	.services-icon-wrap > .service-icon > h5{
+		font-size: 14px;
+		line-height: 21px;
+	}
+	.services-icon-wrap > .service-icon.current{
+		background: transparent;
+	}
+	.sub-heading {
+	    font-size: 24px;
+	    line-height: 21px;
+	    margin-bottom: 10px;
+	}
+	.small-heading {
+	    margin-bottom: 20px;
+	}
+	.small-heading > span {
+	    font-size: 16px;
+	    line-height: 23px;
+	    border:none;
+	    color: #000;
+	}
+	.team-info{
+		margin-bottom: 20px;
+	}
+	.testimonial-carousel{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.testimonial-user > span{
+		font-size: 12px;
+		line-height: 19px;
+	}
+	div#portfolio_thumbs ul li{
+		width: 50%;
+	}
+	div#portfolio_thumbs ul li div.item_info h3{
+		font-size: 12px;
+		line-height: 19px;
+	}
+	div#portfolio_thumbs ul li div.item_info{
+		background-image: none;
+	}
+	div#portfolio_thumbs ul li div.item_info p{
+		margin-top: 30px;
+	}
+	div#portfolio_thumbs ul li div.item_info h3{
+		padding: 20px 10px;
+	}
+	ul#portfolioFilter{
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+	#text_content h3 {
+	    font-size: 32px;
+	    line-height: 39px;
+	}
+	ul#portfolioFilter li{
+		line-height: 24px;
+		margin-bottom: 5px;
+	}
+	.logo-emblem > img{
+		width: 96px;
+	}
+	#submit{
+		margin-top: 30px;
+	}
+	#intro{
+		text-align: center !important;
+	}
+	.top-banner-caption-v6{
+		padding: 0 20px;
+	}
+	.top-banner-caption-v6 h1{
+		font-size: 32px;
+		line-height: 39px;
+	}
+	.top-banner-caption-v1 h3 > span {
+	    font-size: 24px;
+	    line-height: 31px;
+	}
+	.top-banner-caption-v1 h1, .top-banner-caption-v5 h1, .top-banner-caption-v4 h1, .top-banner-caption-v9 h1{
+		font-size: 48px;
+		line-height: 55px;
+	}
+	.top-banner-caption-v2 h3{
+		font-size: 12px;
+		line-height: 24px;
+	}
+	.top-banner-caption-v2 h3 > span{
+		padding-bottom: 8px;
+	}
+	.top-banner-caption-v2 h1{
+		font-size: 36px;
+		line-height: 43px;
+	}
+	.top-banner-caption-v5{
+		width: 100%;
+		margin-left: 0;
+	}
+	.top-banner-caption-v3 h1{
+		font-size: 32px;
+	}
+	.top-banner-caption-v3 h3 > span{
+		background: transparent;
+	}
+	.top-banner-caption-v4, .top-banner-caption-v9{
+		width: 100%;
+		margin-left: 0;
+	}
+	div#portfolio_thumbs ul li div.item_info p{
+		margin-top: 40px;
+	}
+	.team-info{
+		margin-bottom: 20px;
+		width: 100%;
+	}
+	.btn-rounded {
+	    font-size: 16px;
+	    padding: 8px 13px;
+	}
+}
+
+/*Other Major Small Smart Phones*/
+@media screen and (max-width: 360px) {
+ 	.hide-on-mobile-only{
+	 	display: none;
+	 	visibility: hidden;
+	 }
+	  .show-on-mobile-only{
+	 	display: block;
+	 	visibility: visible;
+	 }
+	 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
+	 	text-align: center;
+	 }
+	.container, .service-details{
+	    max-width: 320px;
+	    padding-left: 20px;
+	    padding-right: 20px;
+	}
+
+	.super-heading {
+	    font-size: 24px;
+	    line-height: 31px;
+	}
+	.promo-heading {
+	    font-size: 20px;
+	    line-height: 27px;
+	}
+	.promo-text {
+	    font-size: 16px;
+	    line-height: 23px;
+	}
+	.main-heading {
+	    font-size: 24px;
+	    line-height: 31px;
+	}
+	.services-icon-wrap{
+		padding-bottom: 50px;
+	}
+	.services-icon-wrap > .service-icon{
+		float: left;
+		padding: 0;
+		width: 50%;
+	}
+	.services-icon-wrap > .service-icon > a > img{
+		width: 80px;
+	}
+	.services-icon-wrap > .service-icon > h5{
+		font-size: 14px;
+		line-height: 21px;
+	}
+	.services-icon-wrap > .service-icon.current{
+		background: transparent;
+	}
+	.sub-heading {
+	    font-size: 24px;
+	    line-height: 21px;
+	    margin-bottom: 10px;
+	}
+	.small-heading {
+	    margin-bottom: 20px;
+	}
+	.small-heading > span {
+	    font-size: 16px;
+	    line-height: 23px;
+	    border:none;
+	    color: #000;
+	}
+	.testimonial-carousel{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.testimonial-user > span{
+		font-size: 12px;
+		line-height: 19px;
+	}
+	div#portfolio_thumbs ul li{
+		width: 50%;
+	}
+	div#portfolio_thumbs ul li div.item_info h3{
+		font-size: 12px;
+		line-height: 19px;
+	}
+	div#portfolio_thumbs ul li div.item_info{
+		background-image: none;
+	}
+	div#portfolio_thumbs ul li div.item_info h3{
+		padding: 20px 10px;
+	}
+	#text_content h3 {
+	    font-size: 32px;
+	    line-height: 39px;
+	}
+	ul#portfolioFilter li{
+		line-height: 24px;
+		margin-bottom: 5px;
+	}
+	.logo-emblem > img{
+		width: 96px;
+	}
+	#submit{
+		margin-top: 30px;
+	}
+	#intro{
+		text-align: center !important;
+	}
+	.top-banner-caption-v6{
+		padding: 0 20px;
+	}
+	.top-banner-caption-v6 h1{
+		font-size: 32px;
+		line-height: 39px;
+	}
+	.top-banner-caption-v1 h3 > span {
+	    font-size: 24px;
+	    line-height: 31px;
+	}
+	.top-banner-caption-v1 h1, .top-banner-caption-v5 h1, .top-banner-caption-v4 h1, .top-banner-caption-v9 h1{
+		font-size: 36px;
+		line-height: 43px;
+	}
+	.top-banner-caption-v2 h3{
+		font-size: 12px;
+		line-height: 24px;
+	}
+	.top-banner-caption-v2 h3 > span{
+		padding-bottom: 8px;
+	}
+	.top-banner-caption-v2 h1{
+		font-size: 36px;
+		line-height: 43px;
+	}
+	.top-banner-caption-v5{
+		width: 100%;
+		margin-left: 0;
+	}
+	.top-banner-caption-v3 h1{
+		font-size: 32px;
+	}
+	.top-banner-caption-v3 h3 > span{
+		background: transparent;
+	}
+	.top-banner-caption-v4, .top-banner-caption-v9{
+		width: 100%;
+		margin-left: 0;
+	}
+	div#portfolio_thumbs ul li div.item_info p{
+		display: none;
+	}
+	.team-info{
+		margin-bottom: 20px;
+		width: 100%;
+	}
+	.btn-rounded {
+	    font-size: 16px;
+	    padding: 8px 13px;
+	}
+}
+
+/*iPhone Portrait Mode and Very Small Mobile Phones*/
+@media screen and (max-width: 320px) {
+	 .hide-on-mobile-only{
+	 	display: none;
+	 	visibility: hidden;
+	 }
+	  .show-on-mobile-only{
+	 	display: block;
+	 	visibility: visible;
+	 }
+	 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
+	 	text-align: center;
+	 }
+	.container, .service-details{
+	    max-width: 280px;
+	    padding-left: 20px;
+	    padding-right: 20px;
+	}
+
+	.super-heading {
+	    font-size: 24px;
+	    line-height: 31px;
+	}
+	.promo-heading {
+	    font-size: 20px;
+	    line-height: 27px;
+	}
+	.promo-text {
+	    font-size: 16px;
+	    line-height: 23px;
+	}
+	.main-heading {
+	    font-size: 24px;
+	    line-height: 31px;
+	}
+	.services-icon-wrap{
+		padding-bottom: 50px;
+	}
+	.services-icon-wrap > .service-icon{
+		float: left;
+		padding: 0;
+		width: 50%;
+	}
+	.services-icon-wrap > .service-icon > a > img{
+		width: 80px;
+	}
+	.services-icon-wrap > .service-icon > h5{
+		font-size: 14px;
+		line-height: 21px;
+	}
+	.services-icon-wrap > .service-icon.current{
+		background: transparent;
+	}
+	.sub-heading {
+	    font-size: 24px;
+	    line-height: 21px;
+	    margin-bottom: 10px;
+	}
+	.small-heading {
+	    margin-bottom: 20px;
+	}
+	.small-heading > span {
+	    font-size: 16px;
+	    line-height: 23px;
+	    border:none;
+	    color: #000;
+	}
+	.team-info{
+		margin-bottom: 20px;
+	}
+	.testimonial-carousel{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.testimonial-user > span{
+		font-size: 12px;
+		line-height: 19px;
+	}
+	div#portfolio_thumbs ul li{
+		width: 50%;
+	}
+	div#portfolio_thumbs ul li div.item_info h3{
+		font-size: 12px;
+		line-height: 19px;
+	}
+	div#portfolio_thumbs ul li div.item_info{
+		background-image: none;
+	}
+	div#portfolio_thumbs ul li div.item_info h3{
+		padding: 20px 10px;
+	}
+	#text_content h3 {
+	    font-size: 32px;
+	    line-height: 39px;
+	}
+	ul#portfolioFilter li{
+		line-height: 24px;
+		margin-bottom: 5px;
+	}
+	.logo-emblem > img{
+		width: 96px;
+	}
+	#submit{
+		margin-top: 30px;
+	}
+	#intro{
+		text-align: center !important;
+	}
+	.top-banner-caption-v6{
+		padding: 0 20px;
+	}
+	.top-banner-caption-v6 h1{
+		font-size: 32px;
+		line-height: 39px;
+	}
+	.top-banner-caption-v1 h3 > span {
+	    font-size: 24px;
+	    line-height: 31px;
+	}
+	.top-banner-caption-v1 h1, .top-banner-caption-v5 h1, .top-banner-caption-v4 h1, .top-banner-caption-v9 h1{
+		font-size: 36px;
+		line-height: 43px;
+	}
+	.top-banner-caption-v2 h3{
+		font-size: 12px;
+		line-height: 24px;
+	}
+	.top-banner-caption-v2 h3 > span{
+		padding-bottom: 8px;
+	}
+	.top-banner-caption-v2 h1{
+		font-size: 36px;
+		line-height: 43px;
+	}
+	.top-banner-caption-v5{
+		width: 100%;
+		margin-left: 0;
+	}
+	.top-banner-caption-v3 h1{
+		font-size: 32px;
+	}
+	.top-banner-caption-v3 h3 > span{
+		background: transparent;
+	}
+	.top-banner-caption-v4, .top-banner-caption-v9{
+		width: 100%;
+		margin-left: 0;
+	}
+	div#portfolio_thumbs ul li div.item_info p{
+		display: none;
+	}
+	.team-info{
+		margin-bottom: 20px;
+		width: 100%;
+	}
+	.btn-rounded {
+	    font-size: 16px;
+	    padding: 8px 13px;
+	}
+}
+
+

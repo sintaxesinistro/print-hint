@@ -1,0 +1,35 @@
+/*MAIN-RETINA.CSS*/
+/*-------------------------------------------------------------------------------------------------------------------------------------*/
+/*This is main CSS file that contains retina display optimization rules to be used in this template*/
+/*-------------------------------------------------------------------------------------------------------------------------------------*/
+/* Template Name: DIGNITY.*/
+/* Author: Designova.*/
+/* Website: http://www.designova.net */
+/* Copyright: (C) 2013 */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*==========================*/
+/*RETINA DISPLAY OPTIMIZATION*/
+/*===========================*/
+@media all and (-webkit-min-device-pixel-ratio: 1.5) { 
+
+
+/*IMPORTANT : PLEASE NOTE:
+Just define high resolution version (2x) all of the background images used in your website.
+Example is given below:*/
+
+/*#my-element { background-image: url('/images/my_image@2x.png'); background-size: 200px 100px; } */
+
+/*In the above definition, background-size stands for width and height of the high resolution image - you have to set it manually. 
+For further info please visit: http://retinajs.com/ */
+
+
+/*...........uncomment this line and add your retina specific rules here.............*/
+
+
+}
+/*end of retina detection mediaquery*/
+
+
+

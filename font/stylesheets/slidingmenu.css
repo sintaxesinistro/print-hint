@@ -1,0 +1,163 @@
+/*SLIDINGMENU.CSS*/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/*This CSS file contains style rules for Sliding Menu*/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* Author: Designova.*/
+/* Website: http://www.designova.net */
+/* Copyright: (C) 2013 */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+.menu {
+	position: fixed;
+	left: -200px;
+	width: 260px;
+	height: 100%;
+	top: 0;
+	z-index: 10;
+	text-align: left;
+}
+
+.menu.menu-open {
+	left: 0px;
+}
+
+.sm-wrap {
+	position: absolute;
+	top: 0;
+	right: 60px;
+	background: #1E1F21;
+	width: 200px;
+	height: 100%;
+}
+
+.menu h1.sm-logo{
+	font-family:"NexaBold";
+	font-size: 24px;
+	font-weight: 800;
+	letter-spacing: 0.15em;
+	line-height: 40px;
+	text-transform: uppercase;
+	color: #fff;
+	margin: 20px 10px;
+}
+
+
+.menu img.sm-logo {
+	margin: 20px 0;
+	max-width: 160px;
+}
+
+.menu a {
+	margin:0px;
+	margin-bottom: 2px;
+	color: #777;
+	display: block;
+	font-size: 11px;
+	letter-spacing: 2px;
+	font-weight: 200;
+	line-height: 23px;
+	font-family:"OpenSansLight";
+	background:rgba(0,0,0,0.1);
+	padding: 10px;
+	-webkit-transition: all .4s ease-in-out;
+	   -moz-transition: all .4s ease-in-out;
+		-ms-transition: all .4s ease-in-out;
+		 -o-transition: all .4s ease-in-out;
+			transition: all .4s ease-in-out;
+}
+
+.menu a:hover {
+	color: #ffffff;
+	-webkit-transition: all .4s ease-in-out;
+	   -moz-transition: all .4s ease-in-out;
+		-ms-transition: all .4s ease-in-out;
+		 -o-transition: all .4s ease-in-out;
+			transition: all .4s ease-in-out;
+}
+
+.menu a:active {
+	color: #ffffff;
+}
+
+.menu-close {
+	cursor: pointer;
+	display: block;
+	position: absolute;
+	font-size: 14px;
+	color: #808080;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	top: 20px;
+	right: 5px;
+	-webkit-transition: all .1s ease-in-out;
+	   -moz-transition: all .1s ease-in-out;
+		-ms-transition: all .1s ease-in-out;
+		 -o-transition: all .1s ease-in-out;
+			transition: all .1s ease-in-out;
+}
+
+.menu-close:hover {
+	color: #ffffff;
+	-webkit-transition: all .1s ease-in-out;
+	   -moz-transition: all .1s ease-in-out;
+		-ms-transition: all .1s ease-in-out;
+		 -o-transition: all .1s ease-in-out;
+			transition: all .1s ease-in-out;
+}
+
+/* Push the body after clicking the menu button */
+.sliding {
+	overflow-x: hidden;
+	position: relative;
+	left: 0;
+}
+
+.sliding-toright {
+	left: 200px;
+}
+
+.sliding-toleft {
+	left: -200px;
+}
+
+.menu,
+.sliding {
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+		-ms-transition: all .3s ease;
+		 -o-transition: all .3s ease;
+			transition: all .3s ease;
+}
+
+#sm-trigger {
+	position: absolute;
+	top: 20px;
+	right: 0;
+	z-index: 11;
+	display: block;
+	text-align: center;
+	font-size: 14px;
+	color: #ffffff;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	cursor: pointer;
+	background: rgba(0,0,0,0.5) url('../images/menu.png') center center;
+	-webkit-transition: all .1s ease-in-out;
+	   -moz-transition: all .1s ease-in-out;
+		-ms-transition: all .1s ease-in-out;
+		 -o-transition: all .1s ease-in-out;
+			transition: all .1s ease-in-out;
+}
+
+#sm-trigger:hover {
+	color: #ffffff;
+	background: rgba(0,0,0,0.9) url('../images/menu.png') center center;
+	-webkit-transition: all .1s ease-in-out;
+	   -moz-transition: all .1s ease-in-out;
+		-ms-transition: all .1s ease-in-out;
+		 -o-transition: all .1s ease-in-out;
+			transition: all .1s ease-in-out;
+}
+

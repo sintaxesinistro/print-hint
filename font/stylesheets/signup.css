@@ -1,0 +1,104 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+
+// Calc Mixin
+@mixin calc($property, $expression) { 
+  #{$property}: -moz-calc(#{$expression}); 
+  #{$property}: -o-calc(#{$expression}); 
+  #{$property}: -webkit-calc(#{$expression}); 
+  #{$property}: calc(#{$expression}); 
+}
+
+* {
+  @include box-sizing(border-box);
+}
+
+
+.wrapper {
+  height: 80px;
+  position: absolute;
+  bottom: 25%;
+  margin-top: -40px;
+  width: 100%;
+}
+
+.sign-up {
+  
+  border: 2px solid white;
+  height: 80px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 15px;
+  position: relative;
+  width: 350px;
+  -webkit-backface-visibility: hidden;
+
+  
+  @include border-radius(6px);
+  @include transition(all 0.3s ease);
+  
+  &.open {
+    width: 450px;
+  }
+  
+  .sign-up-button {
+    background: white;
+    color: #27ae60;
+    height: 100%;
+    font-size: 1.3em;
+    font-weight: 600;
+    left: 0;
+    line-height: 80px;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    @include transition(display 0.3s ease);
+    
+    &:hover {
+      color: #41CC7D;
+    }
+  }
+  
+  .input-group {
+    display: none;
+  }
+  
+  label {
+    color: white;
+    position: absolute;
+    top: 27px;
+    left: 16px;
+    pointer-events: none;
+    @include transition(all 0.2s ease);
+  }
+  
+  input {
+    background: none;
+    border: 0;
+    color: white;
+    height: 45px;
+    @include calc(width, "100% - 125px");
+    &:focus {
+      outline: 0;
+      @include box-shadow(0 0 0);
+    }
+  } 
+  button {
+    background: white;
+    border: 0;
+    color: #27ae60;
+    height: 45px;
+    font-weight: 600;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 120px;
+    @include border-radius(3px);
+    &:hover {
+      color: #41CC7D;
+    }
+  }
+  
+}

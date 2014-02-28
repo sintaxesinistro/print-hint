@@ -1,0 +1,69 @@
+
+	 #ticker{
+		 margin-top:0px;
+	 }
+
+.tweet,
+.query {
+	font: 120% Georgia, serif;
+	color: #fff;
+}
+
+	.tweet_list {
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		border-radius: 3px;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		overflow-y: hidden;
+	}
+	
+		.tweet_list li {
+			overflow-y: hidden;
+			overflow-x: hidden;
+			list-style-type: none;
+font-family:"OpenSansLight";
+font-size:14px !important;
+		 color:#fff;
+		}
+		
+			.tweet_list li a {
+font-family:"OpenSansLight";
+font-size:14px !important;
+		 color:#ccc;
+			}
+			.tweet_list li a:hover {
+				color: #E74C3C;
+				cursor:pointer;
+				text-decoration: none;
+			}
+		
+		.tweet_list .tweet_even {
+		}
+		
+		.tweet_list .tweet_avatar {
+			padding-right: .5em; float: left;
+		}
+		
+			.tweet_list .tweet_avatar img {
+				vertical-align: middle;
+			}
+			.tweet_text{
+			}
+			.tweet_time{
+font-family:"OpenSansRegular";
+			}
+
+.tweet_text, .tweet_time{
+	padding: 4px;
+line-height: 21px;
+}
+
+#ticker .loading{
+	color: #ccc;
+	padding: 4px;
+line-height: 21px;
+font-family:"OpenSansLight";
+font-size: 14px;
+}
