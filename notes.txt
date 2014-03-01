@@ -280,3 +280,111 @@ Removed Team Section ===
 	
 	
 </section>
+
+BLOG REMOVED ===
+
+
+<section id="blog">
+	<div class="fullwidth-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h1 class="weight-300" style="margin-bottom: 40px">What&#39;s
+					<strong>new</strong> in the blog</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="cre-animate" data-animation="fade-in" data-delay="700" data-easing="out" data-offset="70%" data-speed="1000">
+						<div class="img-thumb" style="background-image: url('img/pictures/sunset-jet.jpg');">
+							<a href="post-sidebar.html">
+							<div class="img-thumb-hover-left">
+								<i class="im-redo2"></i></div>
+							</a>
+							<a data-pp="prettyPhoto[blog-gallery]" href="img/pictures/sunset-jet.jpg" title="Take a Relaxing Vacation Adventure">
+							<div class="img-thumb-hover-right">
+								<i class="im-expand2"></i></div>
+							</a>
+							<img alt="blog-image" class="filler responsive" src="img/pictures/sunset-jet.jpg">
+						</div>
+						<div class="blog-wrapper">
+							<h3><a href="post-sidebar.html">Take a Relaxing Vacation 
+							Adventure</a></h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing 
+							elit, sed do eiusmod tempor incididunt ut labore et 
+							dolore magna aliqua. </p>
+							<div class="blog-info">
+								<i class="fa fa-clock-o"></i>23 JAN 2014
+								<i class="im-user"></i>CreativelyCoded
+								<span class="likes"><i class="fa fa-heart"></i>214</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="cre-animate" data-animation="fade-in" data-delay="0" data-easing="out" data-offset="70%" data-speed="1000">
+						<div class="img-thumb" style="background-image: url('img/pictures/hawaii.jpg');">
+							<a href="post-sidebar.html">
+							<div class="img-thumb-hover-left">
+								<i class="im-redo2"></i></div>
+							</a>
+							<a data-pp="prettyPhoto[blog-gallery]" href="img/pictures/hawaii.jpg" title="Hawaii is the Trip of a Lifetime">
+							<div class="img-thumb-hover-right">
+								<i class="im-expand2"></i></div>
+							</a>
+							<img alt="blog-image" class="filler responsive" src="img/pictures/hawaii.jpg">
+						</div>
+						<div class="blog-wrapper">
+							<h3><a href="post-sidebar.html">Hawaii is the Trip of 
+							a Lifetime</a></h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing 
+							elit, sed do eiusmod tempor incididunt ut labore et 
+							dolore magna aliqua. </p>
+							<div class="blog-info">
+								<i class="fa fa-clock-o"></i>14 JAN 2014
+								<i class="im-user"></i>CreativelyCoded
+								<span class="likes"><i class="fa fa-heart"></i>214</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="cre-animate" data-animation="fade-in" data-delay="350" data-easing="out" data-offset="70%" data-speed="1000">
+						<div class="img-thumb" style="background-image: url('img/pictures/beach-sun.jpg');">
+							<a href="post-sidebar.html">
+							<div class="img-thumb-hover-left">
+								<i class="im-redo2"></i></div>
+							</a>
+							<a data-pp="prettyPhoto[blog-gallery]" href="img/pictures/beach-sun.jpg" title="The Most Amazing Beaches in the World">
+							<div class="img-thumb-hover-right">
+								<i class="im-expand2"></i></div>
+							</a>
+							<img alt="blog-image" class="filler responsive" src="img/pictures/beach-sun.jpg">
+						</div>
+						<div class="blog-wrapper">
+							<h3><a href="post-sidebar.html">The Most Amazing Beaches 
+							in the World</a></h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing 
+							elit, sed do eiusmod tempor incididunt ut labore et 
+							dolore magna aliqua. </p>
+							<div class="blog-info">
+								<i class="fa fa-clock-o"></i>14 DEC 2013
+								<i class="im-user"></i>CreativelyCoded
+								<span class="likes"><i class="fa fa-heart"></i>214</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="cre-animate" data-animation="slide-in-from-left" data-delay="0" data-easing="easeInOutBack" data-offset="90%" data-speed="1000">
+						<a class="btn btn-primary btn-3d pull-right" href="blog-sidebar.html">
+						View More Posts <i class="fa fa-chevron-right"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+</div>
+
+	</section>
