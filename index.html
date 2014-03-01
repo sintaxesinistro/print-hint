@@ -150,7 +150,7 @@ input[type="text"]{
 	border-radius: 15px !important;
 	border: solid 1px white !important;
 	color: white !important;
-	background-color:black;
+	background-color:black !important;
 }
 
 .betaWrap{
@@ -188,7 +188,18 @@ input[type="text"]{
 	function finish(transport){
 	//	alert('ajax done');
 		console.log(transport.responseText);
-		//window.location ="http://printhint/home.html";
+	
+			if (transport.responseText == "notValid"){
+				alert("please enter a valid email");
+				return
+			}
+			else if (transport.responseText == "no") {
+				alert("please enter a email");
+				return
+			}
+			else {
+				window.location ="home.html";
+			}		
 	}
 
 </script>

@@ -4,10 +4,20 @@
 	include_once('dbLib.php');
 
 	extract($_REQUEST);
-	dbQuery("INSERT INTO User (email) VALUES ('$email')");
-	echo('added '. $email);
+	
+	if(!isset($email)){
+		echo "no";
+		return;
+	}
 
-	echo('<h1>You have been added to our system!</h1><br>
-		<h2>Continue to <a href="http://printhint.com/home.html">PrintHint.com</a>');
+	if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+	    echo "notValid";
+	    return;
+	}
+
+	$ip = $_SERVER['REMOTE_ADDR'];
+
+	dbQuery("INSERT INTO User (email, ip) VALUES ('$email', '$ip')");
+	
 
 ?>
