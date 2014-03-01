@@ -636,3 +636,438 @@ Features section removed ===
 </section>
 
 	</section>
+
+Full Width Section ===
+
+<div class="fullwidth-section">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<h1 class="weight-300" style="margin-bottom: 60px">
+				<strong class="color-primary">Icon Feature Boxes</strong> - 8 Different 
+				Styles</h1>
+			</div>
+		</div>
+	
+		<!-- ========== 3 Column - Icon Feature Boxes ========== -->
+		
+		<div class="row">
+			<div class="col-md-12">
+				<h3><strong>3 Column - Icon Feature Boxes</strong></h3>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4 text-center">
+				<div class="cre-animate" data-animation="slide-up-from-bottom" data-delay="250" data-easing="easeInOutBack" data-offset="80%" data-speed="750">
+					<div class="icon-feature-3column">
+						<i class="im-wand color-primary"></i>
+						<h4>Unlimited Customizations</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+						Cras bibendum cursus dictum. Duis molestie velit non augue 
+						condimentum iaculis ut at enim.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 text-center">
+				<div class="cre-animate" data-animation="slide-up-from-bottom" data-delay="500" data-easing="easeInOutBack" data-offset="80%" data-speed="750">
+					<div class="icon-feature-3column">
+						<i class="im-support color-primary"></i>
+						<h4>Customer Support</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+						Cras bibendum cursus dictum. Duis molestie velit non augue 
+						condimentum iaculis ut at enim.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 text-center">
+				<div class="cre-animate" data-animation="slide-up-from-bottom" data-delay="750" data-easing="easeInOutBack" data-offset="80%" data-speed="750">
+					<div class="icon-feature-3column">
+						<i class="im-fire color-primary"></i>
+						<h4>Hot New Design</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+						Cras bibendum cursus dictum. Duis molestie velit non augue 
+						condimentum iaculis ut at enim.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		<!-- ========== 4 Column - Icon Feature Boxes ========== -->
+		
+		<div class="row" style="margin-top: 40px">
+			<div class="col-md-12">
+				<h3><strong>4 Column - Icon Feature Boxes</strong></h3>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-3 text-center">
+				<div class="cre-animate" data-animation="slide-in-from-right" data-delay="250" data-easing="easeInOutBack" data-offset="80%" data-speed="750">
+					<div class="icon-feature-4column">
+						<i class="im-wand color-secondary"></i>
+						<h4>Customizations</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+						Cras bibendum cursus dictum. Duis molestie velit non augue 
+						condimentum iaculis ut at enim.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 text-center">
+				<div class="cre-animate" data-animation="slide-in-from-right" data-delay="450" data-easing="easeInOutBack" data-offset="80%" data-speed="750">
+					<div class="icon-feature-4column">
+						<i class="im-support color-secondary"></i>
+						<h4>Customer Support</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+						Cras bibendum cursus dictum. Duis molestie velit non augue 
+						condimentum iaculis ut at enim.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 text-center">
+				<div class="cre-animate" data-animation="slide-in-from-right" data-delay="650" data-easing="easeInOutBack" data-offset="80%" data-speed="750">
+					<div class="icon-feature-4column">
+						<i class="im-fire color-secondary"></i>
+						<h4>Hot New Design</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+						Cras bibendum cursus dictum. Duis molestie velit non augue 
+						condimentum iaculis ut at enim.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 text-center">
+				<div class="cre-animate" data-animation="slide-in-from-right" data-delay="850" data-easing="easeInOutBack" data-offset="80%" data-speed="750">
+					<div class="icon-feature-4column">
+						<i class="im-leaf color-secondary"></i>
+						<h4>Over 800+ Icons</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+						Cras bibendum cursus dictum. Duis molestie velit non augue 
+						condimentum iaculis ut at enim.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		<!-- ========== 3 Column - Icon Feature Boxes Inline Alternative ========== -->
+		
+		<div class="row" style="margin-top: 40px">
+			<div class="col-md-12">
+				<h3><strong>3 Column - Icon Feature Boxes Inline Alternative</strong></h3>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4 ">
+				<div class="cre-animate" data-animation="rotate" data-delay="0" data-easing="easeInOutBack" data-offset="80%" data-speed="750">
+					<div class="icon-feature-3column-horizontal-alt">
+						<div class="icon">
+							<i class="im-wand color-white bg-primary"></i></div>
+						<div class="content">
+							<h4>Customizations</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing 
+							elit. Cras bibendum cursus dictum.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 ">
+				<div class="cre-animate" data-animation="rotate" data-delay="250" data-easing="easeInOutBack" data-offset="80%" data-speed="750">
+					<div class="icon-feature-3column-horizontal-alt">
+						<div class="icon">
+							<i class="im-support color-white bg-primary"></i>
+						</div>
+						<div class="content">
+							<h4>Customer Support</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing 
+							elit. Cras bibendum cursus dictum.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 ">
+				<div class="cre-animate" data-animation="rotate" data-delay="500" data-easing="easeInOutBack" data-offset="80%" data-speed="750">
+					<div class="icon-feature-3column-horizontal-alt">
+						<div class="icon">
+							<i class="im-fire color-white bg-primary"></i></div>
+						<div class="content">
+							<h4>Hot New Design</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing 
+							elit. Cras bibendum cursus dictum.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+Cut in half ===
+
+<div class="fullwidth-section bg-secondary-dark">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h1 class="weight-300 color-white text-center" style="margin-bottom: 40px">
+				This is why Print Hint <strong>excels</strong></h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-3 text-center">
+				<span class="counter" data-end-count="9046" data-speed="2500">0</span>
+				<h4 class="color-white">Happy Customers</h4>
+			</div>
+			<div class="col-md-3 text-center">
+				<span class="counter" data-end-count="723" data-speed="2500">0</span>
+				<h4 class="color-white">Facebook Likes</h4>
+			</div>
+			<div class="col-md-3 text-center">
+				<span class="counter" data-end-count="2134" data-speed="2500">0</span>
+				<h4 class="color-white">Twitter Followers</h4>
+			</div>
+			<div class="col-md-3 text-center">
+				<span class="counter" data-end-count="819" data-speed="2500">0</span>
+				<h4 class="color-white">Font Icons</h4>
+			</div>
+		</div>
+	</div>
+</div>
+</section>
+<!-- ============================================ -->
+<!-- ============== END SERVICES SECTION ============ -->
+<!-- ============================================ -->
+<!-- ============================================ -->
+<!-- ============= START PRICING SECTION ============ -->
+<!-- ============================================ -->
+
+<section id="pricing">
+<div class="fullwidth-section" style="background-color: #F5F5F5">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h1 class="weight-300" style="margin-bottom: 40px">Pricing Table 
+				Styles</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4 text-center">
+				<div class="pricing-table-header">
+					STARTER PLAN
+					<div class="pricing-table-price">
+						<i class="fa fa-usd"></i>9<span class="pricing-table-decimal">.95</span></div>
+				</div>
+				<ul class="pricing-table-features">
+					<li>50 GB Storage </li>
+					<li>100 GB Bandwidth </li>
+					<li><i class="fa fa-check color-primary"></i>Feature 1 </li>
+					<li><i class="fa fa-check color-primary"></i>Feature 2 </li>
+					<li><i class="fa fa-check color-primary"></i>Feature 3 </li>
+					<li><i class="fa fa-check color-primary"></i>Feature 4 </li>
+					<li><i class="fa fa-star" style="color: #FFD100"></i>
+					<i class="fa fa-star" style="color: #FFD100"></i>
+					<i class="fa fa-star-half-full" style="color: #FFD100"></i>
+					<i class="fa fa-star-o" style="color: #FFD100"></i>
+					<i class="fa fa-star-o" style="color: #FFD100"></i></li>
+					<li><a href="#">BUY SERVICE <i class="fa fa-share"></i></a></li>
+				</ul>
+			</div>
+			<div class="col-md-4 text-center">
+				<div class="pricing-table-header">
+					BASIC PLAN
+					<div class="pricing-table-price">
+						<i class="fa fa-usd"></i>29<span class="pricing-table-decimal">.95</span></div>
+				</div>
+				<ul class="pricing-table-features inner">
+					<li>200 GB Storage </li>
+					<li>500 GB Bandwidth </li>
+					<li><i class="fa fa-check color-primary"></i>Feature 1 </li>
+					<li><i class="fa fa-check color-primary"></i>Feature 2 </li>
+					<li><i class="fa fa-check color-primary"></i>Feature 3 </li>
+					<li><i class="fa fa-check color-primary"></i>Feature 4 </li>
+					<li><i class="fa fa-star" style="color: #FFD100"></i>
+					<i class="fa fa-star" style="color: #FFD100"></i>
+					<i class="fa fa-star" style="color: #FFD100"></i>
+					<i class="fa fa-star-o" style="color: #FFD100"></i>
+					<i class="fa fa-star-o" style="color: #FFD100"></i></li>
+					<li><a href="#">BUY SERVICE <i class="fa fa-share"></i></a></li>
+				</ul>
+			</div>
+			<div class="col-md-4 text-center">
+				<div class="pricing-table-header">
+					ADVANCED PLAN
+					<div class="pricing-table-price">
+						<i class="fa fa-usd"></i>49<span class="pricing-table-decimal">.95</span></div>
+				</div>
+				<ul class="pricing-table-features">
+					<li>500 GB Storage </li>
+					<li>1000 GB Bandwidth </li>
+					<li><i class="fa fa-check color-primary"></i>Feature 1 </li>
+					<li><i class="fa fa-check color-primary"></i>Feature 2 </li>
+					<li><i class="fa fa-check color-primary"></i>Feature 3 </li>
+					<li><i class="fa fa-check color-primary"></i>Feature 4 </li>
+					<li><i class="fa fa-star" style="color: #FFD100"></i>
+					<i class="fa fa-star" style="color: #FFD100"></i>
+					<i class="fa fa-star" style="color: #FFD100"></i>
+					<i class="fa fa-star" style="color: #FFD100"></i>
+					<i class="fa fa-star-o" style="color: #FFD100"></i></li>
+					<li><a href="#">BUY SERVICE <i class="fa fa-share"></i></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+</section>
+
+<!-- ============================================ -->
+<!-- =============== END PRICING SECTION ============ -->
+<!-- ============================================ -->
+<!-- ============================================ -->
+<!-- ============= START PORTFOLIO SECTION ============ -->
+<!-- ============================================ -->
+
+
+<section id="portfolio">
+<div class="fullwidth-section bg-secondary-dark">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h1 class="weight-300 color-white" style="margin-bottom: 40px">View 
+				the <strong>Latest Work</strong> from our Portfolio</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<!-- ========== START OF FILTER ========== -->
+				<!-- Single button -->
+				
+				<div id="isotope-filter" class="btn-group pull-right">
+					<button class="btn btn-primary btn-3d dropdown-toggle" data-toggle="dropdown" type="button">
+					Filter <i class="fa fa-th-list"></i></button>
+					<ul class="dropdown-menu pull-right" role="menu">
+						<li><a data-filter="*" href="#">Show All</a></li>
+						<li><a data-filter=".fashion" href="#">Fashion</a></li>
+						<li><a data-filter=".models" href="#">Models</a></li>
+						<li><a data-filter=".accesories" href="#">Accessories</a></li>
+					</ul>
+				</div>
+			
+				<!-- ========== END OF FILTER ========== --></div>
+		</div>
+		
+		<div class="row">
+			<div id="isotope">
+				<div class="col-md-4 fashion models">
+					<div class="cre-animate" data-animation="scale-up" data-delay="500" data-easing="easeInOutBack" data-offset="70%" data-speed="1000">
+						<div class="img-thumb" style="background-image: url('img/pictures/woman.jpg');">
+							<a data-pp="prettyPhoto[portfolio-gallery]" href="img/pictures/woman.jpg" title="Fashion and Style for the Future">
+							<div class="img-thumb-hover">
+								<i class="im-expand2"></i></div>
+							</a>
+							<img alt="blog-image" class="filler responsive" src="img/pictures/woman.jpg">
+						</div>
+						<div class="blog-wrapper">
+							<h4><a href="#">Fashion and Style for the Future</a></h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing 
+							elit, sed do eiusmod tempor incididunt ut labore et 
+							dolore magna aliqua. </p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 models accesories">
+					<div class="cre-animate" data-animation="scale-up" data-delay="0" data-easing="easeInOutBack" data-offset="70%" data-speed="1000">
+						<div class="img-thumb" style="background-image: url('img/pictures/woman-mask.jpg');">
+							<a data-pp="prettyPhoto[portfolio-gallery]" href="img/pictures/woman-mask.jpg" title="Getting Ready for the Masquerade">
+							<div class="img-thumb-hover">
+								<i class="im-expand2"></i></div>
+							</a>
+							<img alt="blog-image" class="filler responsive" src="img/pictures/woman-mask.jpg">
+						</div>
+						<div class="blog-wrapper">
+							<h4><a href="#">Getting Ready for the Masquerade</a></h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing 
+							elit, sed do eiusmod tempor incididunt ut labore et 
+							dolore magna aliqua. </p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 fashion accesories">
+					<div class="cre-animate" data-animation="scale-up" data-delay="250" data-easing="easeInOutBack" data-offset="70%" data-speed="1000">
+						<div class="img-thumb" style="background-image: url('img/pictures/woman-rocker.jpg');">
+							<a data-pp="prettyPhoto[portfolio-gallery]" href="img/pictures/woman-rocker.jpg" title="Walking the Runway in Monaco">
+							<div class="img-thumb-hover">
+								<i class="im-expand2"></i></div>
+							</a>
+							<img alt="blog-image" class="filler responsive" src="img/pictures/woman-rocker.jpg">
+						</div>
+						<div class="blog-wrapper">
+							<h4><a href="#">Walking the Runway in Monaco</a></h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing 
+							elit, sed do eiusmod tempor incididunt ut labore et 
+							dolore magna aliqua. </p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 models">
+					<div class="cre-animate" data-animation="scale-up" data-delay="500" data-easing="easeInOutBack" data-offset="70%" data-speed="1000">
+						<div class="img-thumb" style="background-image: url('img/pictures/woman-redhair.jpg');">
+							<a data-pp="prettyPhoto[portfolio-gallery]" href="img/pictures/woman-redhair.jpg" title="Golden Red Hair and a Sexy Face">
+							<div class="img-thumb-hover">
+								<i class="im-expand2"></i></div>
+							</a>
+							<img alt="blog-image" class="filler responsive" src="img/pictures/woman-redhair.jpg">
+						</div>
+						<div class="blog-wrapper">
+							<h4><a href="#">Golden Red Hair and a Sexy Face</a></h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing 
+							elit, sed do eiusmod tempor incididunt ut labore et 
+							dolore magna aliqua. </p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 models accesories">
+					<div class="cre-animate" data-animation="scale-up" data-delay="0" data-easing="easeInOutBack" data-offset="70%" data-speed="1000">
+						<div class="img-thumb" style="background-image: url('img/pictures/woman-flower.jpg');">
+							<a data-pp="prettyPhoto[portfolio-gallery]" href="img/pictures/woman-flower.jpg" title="Accent Your Hair Style with a Flower">
+							<div class="img-thumb-hover">
+								<i class="im-expand2"></i></div>
+							</a>
+							<img alt="blog-image" class="filler responsive" src="img/pictures/woman-flower.jpg">
+						</div>
+						<div class="blog-wrapper">
+							<h4><a href="#">Accent Your Style with a Flower</a></h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing 
+							elit, sed do eiusmod tempor incididunt ut labore et 
+							dolore magna aliqua. </p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 fashion">
+					<div class="cre-animate" data-animation="scale-up" data-delay="250" data-easing="easeInOutBack" data-offset="70%" data-speed="1000">
+						<div class="img-thumb" style="background-image: url('img/pictures/woman-side.jpg');">
+							<a data-pp="prettyPhoto[portfolio-gallery]" href="img/pictures/woman-side.jpg" title="Fashion Magazine Cover Shoot">
+							<div class="img-thumb-hover">
+								<i class="im-expand2"></i></div>
+							</a>
+							<img alt="blog-image" class="filler responsive" src="img/pictures/woman-side.jpg">
+						</div>
+						<div class="blog-wrapper">
+							<h4><a href="#">Fashion Magazine Cover Shoot</a></h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing 
+							elit, sed do eiusmod tempor incididunt ut labore et 
+							dolore magna aliqua. </p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</section>
+
+
+<!-- ============================================ -->
+<!-- ============= END PORTFOLIO SECTION ============ -->
+<!-- ============================================ -->
+<!-- ============================================ -->
+<!-- =============== START BLOG SECTION ============= -->
+<!-- ============================================ -->
+<!-- BLOG REMOVED -->
+<!-- ============================================ -->
+<!-- ================ END BLOG SECTION ============= -->
+<!-- ============================================ -->
