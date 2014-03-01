@@ -387,4 +387,252 @@ BLOG REMOVED ===
 		</div>
 </div>
 
+Removed -- Panels w/ Animations ===
+
+
+<div class="fullwidth-section bg-secondary-dark">
+	<div class="container">
+	
+		<!-- ========== 4 Column - Icon Feature Boxes Alternative ========== -->
+		
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<h1 class="weight-300 color-white" style="margin-bottom: 40px;">
+				We also provide these <strong class="color-secondary">great services</strong></h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-3 text-center">
+				<div class="icon-feature-4column-alt cre-animate" data-animation="slide-down-from-top" data-delay="500" data-easing="easeInOutBack" data-offset="80%" data-speed="750">
+					<i class="im-wand color-white bg-secondary"></i>
+					<h4 class="color-white">Customizations</h4>
+					<p class="color-off-white">Lorem ipsum dolor sit amet, consectetur 
+					adipiscing elit. Cras bibendum cursus dictum.</p>
+				</div>
+			</div>
+			<div class="col-md-3 text-center">
+				<div class="icon-feature-4column-alt cre-animate" data-animation="slide-down-from-top" data-delay="1000" data-easing="easeInOutBack" data-offset="80%" data-speed="750">
+					<i class="im-support color-white bg-secondary"></i>
+					<h4 class="color-white">Customer Support</h4>
+					<p class="color-off-white">Lorem ipsum dolor sit amet, consectetur 
+					adipiscing elit. Cras bibendum cursus dictum.</p>
+				</div>
+			</div>
+			<div class="col-md-3 text-center">
+				<div class="icon-feature-4column-alt cre-animate" data-animation="slide-down-from-top" data-delay="750" data-easing="easeInOutBack" data-offset="80%" data-speed="750">
+					<i class="im-fire color-white bg-secondary"></i>
+					<h4 class="color-white">Hot New Design</h4>
+					<p class="color-off-white">Lorem ipsum dolor sit amet, consectetur 
+					adipiscing elit. Cras bibendum cursus dictum.</p>
+				</div>
+			</div>
+			<div class="col-md-3 text-center">
+				<div class="icon-feature-4column-alt cre-animate" data-animation="slide-down-from-top" data-delay="1250" data-easing="easeInOutBack" data-offset="80%" data-speed="750">
+					<i class="im-leaf color-white bg-secondary"></i>
+					<h4 class="color-white">Over 800+ Icons</h4>
+					<p class="color-off-white">Lorem ipsum dolor sit amet, consectetur 
+					adipiscing elit. Cras bibendum cursus dictum.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+</section>
+ 
+
+Features section removed ===
+
+<div class="fullwidth-section half-padding bg-secondary">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<h1 class="weight-300 color-white cre-animate" data-animation="scale-up" data-delay="0" data-easing="easeInOutBack" data-offset="70%" data-speed="1500">
+				Easy mobile emulator with <strong>PRINT HINT</strong></h1>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="fullwidth-section bg-secondary-dark">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<div class="cre-animate" data-animation="fade-in" data-delay="0" data-easing="ease" data-offset="60%" data-speed="1000">
+					<div class="animation-demo" style="background-color: #FFF">
+						<h4 class="bold color-primary">Fade-In</h4>
+						<p>Speed: 1000, Delay: 0</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+						Cras bibendum cursus dictum. Duis molestie velit non augue 
+						condimentum iaculis ut at enim.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="cre-animate" data-animation="slide-down-from-top" data-delay="500" data-easing="easeInOutBack" data-offset="60%" data-speed="1000">
+					<div class="animation-demo" style="background-color: #FFF">
+						<h4 class="bold color-primary">Slide-Down-From-Top</h4>
+						<p>Speed: 1000, Delay: 500</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+						Cras bibendum cursus dictum. Duis molestie velit non augue 
+						condimentum iaculis ut at enim.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="cre-animate" data-animation="slide-up-from-bottom" data-delay="1000" data-easing="easeInOutBack" data-offset="60%" data-speed="1000">
+					<div class="animation-demo" style="background-color: #FFF">
+						<h4 class="bold color-primary">Slide-Up-From-Bottom</h4>
+						<p>Speed: 1000, Delay: 1000</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+						Cras bibendum cursus dictum. Duis molestie velit non augue 
+						condimentum iaculis ut at enim.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4">
+				<div class="cre-animate" data-animation="slide-in-from-left" data-delay="0" data-easing="easeInOutBack" data-offset="60%" data-speed="1000">
+					<div class="animation-demo" style="background-color: #FFF">
+						<h4 class="bold color-primary">Slide-In-From-Left</h4>
+						<p>Speed: 1000, Delay: 0</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+						Cras bibendum cursus dictum. Duis molestie velit non augue 
+						condimentum iaculis ut at enim.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="cre-animate" data-animation="scale-up" data-delay="500" data-easing="easeInOutBack" data-offset="60%" data-speed="1000">
+					<div class="animation-demo" style="background-color: #FFF">
+						<h4 class="bold color-primary">Scale</h4>
+						<p>Speed: 1000, Delay: 500</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+						Cras bibendum cursus dictum. Duis molestie velit non augue 
+						condimentum iaculis ut at enim.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="cre-animate" data-animation="slide-in-from-right" data-delay="1000" data-easing="easeInOutBack" data-offset="60%" data-speed="1000">
+					<div class="animation-demo" style="background-color: #FFF">
+						<h4 class="bold color-primary">Slide-In-From-Right</h4>
+						<p>Speed: 1000, Delay: 1000</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+						Cras bibendum cursus dictum. Duis molestie velit non augue 
+						condimentum iaculis ut at enim.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4">
+				<div class="cre-animate" data-animation="flip-y-axis" data-delay="0" data-easing="ease" data-offset="60%" data-speed="1000">
+					<div class="animation-demo" style="background-color: #FFF">
+						<h4 class="bold color-primary">Flip-Y-Axis</h4>
+						<p>Speed: 1000, Delay: 0</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+						Cras bibendum cursus dictum. Duis molestie velit non augue 
+						condimentum iaculis ut at enim.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="cre-animate" data-animation="rotate" data-delay="0" data-easing="easeInOutBack" data-offset="60%" data-speed="1500">
+					<div class="animation-demo" style="background-color: #FFF">
+						<h4 class="bold color-primary">Rotate</h4>
+						<p>Speed: 1000, Delay: 500</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+						Cras bibendum cursus dictum. Duis molestie velit non augue 
+						condimentum iaculis ut at enim.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="cre-animate" data-animation="flip-x-axis" data-delay="1000" data-easing="ease" data-offset="60%" data-speed="1000">
+					<div class="animation-demo" style="background-color: #FFF">
+						<h4 class="bold color-primary">Flip-X-Axis</h4>
+						<p>Speed: 1000, Delay: 1000</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+						Cras bibendum cursus dictum. Duis molestie velit non augue 
+						condimentum iaculis ut at enim.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="fullwidth-section">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<h1 class="weight-300 color-primary-dark" style="margin-bottom: 60px;">
+				The <strong>beauty</strong> of a vibrant color palette</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-3 text-center">
+				<i class="im-droplet color-primary" style="font-size: 120px; margin-bottom: 20px">
+				</i></div>
+			<div class="col-md-3 text-center">
+				<i class="im-droplet color-secondary" style="font-size: 120px; margin-bottom: 20px">
+				</i></div>
+			<div class="col-md-3 text-center">
+				<i class="im-droplet color-secondary-dark" style="font-size: 120px; margin-bottom: 20px">
+				</i></div>
+			<div class="col-md-3 text-center">
+				<i class="im-droplet color-primary-dark" style="font-size: 120px; margin-bottom: 20px">
+				</i></div>
+		</div>
+		<div class="row" style="margin-top: 15px">
+			<div class="col-md-3 text-center bg-primary" style="border-top-left-radius: 50px; border-bottom-left-radius: 50px;">
+				<h4 class="text-center color-white">#01CFCA</h4>
+			</div>
+			<div class="col-md-3 text-center bg-secondary">
+				<h4 class="text-center color-white">#FF4D50</h4>
+			</div>
+			<div class="col-md-3 text-center bg-secondary-dark">
+				<h4 class="text-center color-white">#373d49</h4>
+			</div>
+			<div class="col-md-3 text-center bg-primary-dark" style="border-top-right-radius: 50px; border-bottom-right-radius: 50px;">
+				<h4 class="text-center color-white">#2f3640</h4>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="fullwidth-section bg-secondary-dark">
+	<div class="container">
+		<div class="row text-center">
+			<div class="col-md-4">
+				<i class="fa fa-eye icon-effect-1"></i>
+				<h3 class="text-center color-white">Retina Ready</h3>
+				<p class="color-white">Lorem ipsum dolor sit amet, consectetur adipiscing 
+				elit. Fusce placerat tincidunt tortor, vestibulum feugiat.</p>
+				<br />
+				<button class="btn btn-outline btn-round">READ MORE</button>
+			</div>
+			<div class="col-md-4">
+				<i class="fa fa-cogs icon-effect-1"></i>
+				<h3 class="text-center color-white">Customizable</h3>
+				<p class="color-white">Lorem ipsum dolor sit amet, consectetur adipiscing 
+				elit. Fusce placerat tincidunt tortor, vestibulum feugiat.</p>
+				<br />
+				<button class="btn btn-outline btn-round">READ MORE</button>
+			</div>
+			<div class="col-md-4">
+				<i class="fa fa-tablet icon-effect-1"></i>
+				<h3 class="text-center color-white">100% Responsive</h3>
+				<p class="color-white">Lorem ipsum dolor sit amet, consectetur adipiscing 
+				elit. Fusce placerat tincidunt tortor, vestibulum feugiat.</p>
+				<br />
+				<button class="btn btn-outline btn-round">READ MORE</button>
+			</div>
+		</div>
+	</div>
+</div>
+</section>
+
 	</section>
