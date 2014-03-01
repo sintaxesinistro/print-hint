@@ -55,3 +55,228 @@ Removed ===
 		</div>
 	</div>
 </div>-->
+
+Removed Team Section === 
+
+<section id="team">
+<div class="fullwidth-section">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<h1 class="weight-300 kill-top-margin" style="margin-bottom: 60px">
+				Meet the <strong class="color-secondary">team</strong> behind our 
+				work</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-3">
+				<div class="cre-animate" data-animation="scale-down" data-delay="500" data-easing="easeInOutBack" data-offset="70%" data-speed="500">
+					<a data-easing="easeInOutCubic" data-scroll="" data-speed="500" data-url="false" href="#contact">
+					<div class="team-hover">
+						<div class="team-hover-text">
+							<i class="im-mail2" style="font-size: 20px;"></i>
+							<br />
+							Drop me an email</div>
+					</div></a>
+					<h1 class="letter">R</h1>				
+				</div>
+				<div class="team-info text-center">
+					<h4>Robert</h4>
+					<h6>Ux / Ui Designer</h6>
+					
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+					sed do eiusmod tempor incididunt ut labore et magna aliqua.</p>
+					<div class="social-icons">
+						<i class="im-facebook"></i><i class="im-twitter"></i><i class="im-pinterest"></i><i class="im-dribbble"></i><i class="im-instagram"></i>
+						</div>
+					
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="cre-animate" data-animation="scale-down" data-delay="1000" data-easing="easeInOutBack" data-offset="70%" data-speed="500">
+					<a data-easing="easeInOutCubic" data-scroll="" data-speed="500" data-url="false" href="#contact">
+					<div class="team-hover">
+						<div class="team-hover-text">
+							<i class="im-mail2" style="font-size: 20px;"></i>
+							<br />
+							Drop me an email</div>
+					</div>
+					</a>
+					<h1 class="letter">L</h1>				
+				</div>
+				<div class="team-info text-center">
+					<h4>Lily</h4>
+					<h6>3D Artist</h6>
+					
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+					sed do eiusmod tempor incididunt ut labore et magna aliqua.</p>
+					<div class="social-icons">
+						<i class="im-facebook"></i><i class="im-twitter"></i><i class="im-pinterest"></i><i class="im-dribbble"></i><i class="im-instagram"></i>
+						</div> 
+					
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="cre-animate" data-animation="scale-down" data-delay="1250" data-easing="easeInOutBack" data-offset="70%" data-speed="500">
+					<a data-easing="easeInOutCubic" data-scroll="" data-speed="500" data-url="false" href="#contact">
+					<div class="team-hover">
+						<div class="team-hover-text">
+							<i class="im-mail2" style="font-size: 20px;"></i>
+							<br />
+							Drop me an email</div>
+					</div>
+					</a>
+					<h1 class="letter">T</h1>				
+				</div>
+				<div class="team-info text-center">
+					<h4>Thiago</h4>
+					<h6>IT Networking</h6>
+					
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+					sed do eiusmod tempor incididunt ut labore et magna aliqua.</p>
+					<div class="social-icons">
+						<i class="im-facebook"></i><i class="im-twitter"></i><i class="im-pinterest"></i><i class="im-dribbble"></i><i class="im-instagram"></i>
+						</div>
+					
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="cre-animate" data-animation="scale-down" data-delay="750" data-easing="easeInOutBack" data-offset="70%" data-speed="500">
+					<a data-easing="easeInOutCubic" data-scroll="" data-speed="500" data-url="false" href="#contact">
+					<div class="team-hover">
+						<div class="team-hover-text">
+							<i class="im-mail2" style="font-size: 20px;"></i>
+							<br />
+							Drop me an email</div>
+					</div>
+					</a>
+					<h1 class="letter">M</h1>				
+				</div>				<div class="team-info text-center">
+					<h4>Mike</h4>
+					<h6>Business Development</h6>
+					
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+					sed do eiusmod tempor incididunt ut labore et magna aliqua.</p>
+					<div class="social-icons">
+						<i class="im-facebook"></i><i class="im-twitter"></i><i class="im-pinterest"></i><i class="im-dribbble"></i><i class="im-instagram"></i>
+						</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- ALTERNATE STYLE FOR TEAM DISPLAY -->
+
+<div class="fullwidth-section">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<h1 class="weight-300" style="margin-bottom: 60px">Alternate style 
+				for <strong class="color-secondary">team</strong> display</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="cre-animate" data-animation="slide-in-from-right" data-delay="0" data-easing="easeInOutBack" data-offset="70%" data-speed="1000">
+				<div class="col-md-2">
+					<a data-easing="easeInOutCubic" data-scroll="" data-speed="500" data-url="false" href="#contact">
+					<div class="team-hover">
+						<div class="team-hover-text">
+							<i class="im-mail2" style="font-size: 20px;"></i>
+							<br />
+							Drop me an email</div>
+					</div>
+					</a>
+					<img alt="team image" class="img-responsive" src="img/team/team1.jpg"></div>
+				<div class="col-md-4">
+					<div class="team-info text-left">
+						<h4>Mike Smith</h4>
+						<h6>Director</h6>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+						sed do eiusmod tempor incididunt ut labore et magna aliqua.</p>
+						<div class="social-icons">
+						<i class="im-facebook"></i><i class="im-twitter"></i><i class="im-pinterest"></i><i class="im-dribbble"></i><i class="im-instagram"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="cre-animate" data-animation="slide-in-from-right" data-delay="500" data-easing="easeInOutBack" data-offset="70%" data-speed="1000">
+				<div class="col-md-2">
+					<a data-easing="easeInOutCubic" data-scroll="" data-speed="500" data-url="false" href="#contact">
+					<div class="team-hover">
+						<div class="team-hover-text">
+							<i class="im-mail2" style="font-size: 20px;"></i>
+							<br />
+							Drop me an email</div>
+					</div>
+					</a>
+					<img alt="team image" class="img-responsive" src="img/team/team2.jpg"></div>
+				<div class="col-md-4">
+					<div class="team-info text-left">
+						<h4>Laura Wilkins</h4>
+						<h6>Graphic Designer</h6>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+						sed do eiusmod tempor incididunt ut labore et magna aliqua.</p>
+						<div class="social-icons">
+						<i class="im-facebook"></i><i class="im-twitter"></i><i class="im-pinterest"></i><i class="im-dribbble"></i><i class="im-instagram"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<hr />
+		<div class="row">
+			<div class="cre-animate" data-animation="slide-in-from-right" data-delay="0" data-easing="easeInOutBack" data-offset="70%" data-speed="1000">
+				<div class="col-md-2">
+					<a data-easing="easeInOutCubic" data-scroll="" data-speed="500" data-url="false" href="#contact">
+					<div class="team-hover">
+						<div class="team-hover-text">
+							<i class="im-mail2" style="font-size: 20px;"></i>
+							<br />
+							Drop me an email</div>
+					</div>
+					</a>
+					<img alt="team image" class="img-responsive" src="img/team/team3.jpg"></div>
+				<div class="col-md-4">
+					<div class="team-info text-left">
+						<h4>Todd Blake</h4>
+						<h6>Web Developer</h6>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+						sed do eiusmod tempor incididunt ut labore et magna aliqua.</p>
+						<div class="social-icons">
+						<i class="im-facebook"></i><i class="im-twitter"></i><i class="im-pinterest"></i><i class="im-dribbble"></i><i class="im-instagram"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="cre-animate" data-animation="slide-in-from-right" data-delay="500" data-easing="easeInOutBack" data-offset="70%" data-speed="1000">
+				<div class="col-md-2">
+					<a data-easing="easeInOutCubic" data-scroll="" data-speed="500" data-url="false" href="#contact">
+					<div class="team-hover">
+						<div class="team-hover-text">
+							<i class="im-mail2" style="font-size: 20px;"></i>
+							<br />
+							Drop me an email</div>
+					</div>
+					</a>
+					<img alt="team image" class="img-responsive" src="img/team/team4.jpg"></div>
+				<div class="col-md-4">
+					<div class="team-info text-left">
+						<h4>Chris Lake</h4>
+						<h6>Customer Support</h6>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+						sed do eiusmod tempor incididunt ut labore et magna aliqua.</p>
+						<div class="social-icons">
+						<i class="im-facebook"></i><i class="im-twitter"></i><i class="im-pinterest"></i><i class="im-dribbble"></i><i class="im-instagram"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+	
+	
+</section>
