@@ -1,674 +1,172 @@
-<!DOCTYPE html><!--[if lt IE 7 ]>
-<html class="ie ie6" lang="en">
-
-<![endif]--><!--[if IE 7 ]>
-<html class="ie ie7" lang="en">
-
-<![endif]--><!--[if IE 8 ]>
-<html class="ie ie8" lang="en">
-
-<![endif]--><!--[if (gte IE 9)|!(IE)]>
-<!-->
-<html lang="en-US">
-
-<!--<![endif]-->
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
-<meta name="description" content="Print Hint is the newest news hub for 3D printing">
-<meta name="keywords" content="3d printing, news, 3d art, 3d printers, 3d mechanics, how to, diy, new york city, start up printing">
+<meta charset="utf-8">
+<title>Print Hint - 3d News</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Beta sign up, Print hint news, 3D printers, 3D mechanics, 3d printing news, ios app, ">
 <meta name="author" content="@VargasVisuals">
-<title>Print Hint</title>
-<!-- ================================ -->
-<!-- ========== CSS INCLUDES ========== -->
-<!-- ================================ -->
-<link href="css/bootstrap.min.css" media="screen" rel="stylesheet" type="text/css">
-<link href="css/font-awesome.min.css" media="screen" rel="stylesheet" type="text/css">
-<link href="css/icomoon.css" media="screen" rel="stylesheet" type="text/css">
-<link href="css/prettyPhoto.css" media="screen" rel="stylesheet" type="text/css">
-<link href="css/slider-settings.css" media="screen" rel="stylesheet" type="text/css">
-<link href="css/haze-buttons.css" media="screen" rel="stylesheet" type="text/css">
-<link href="css/menu.css" media="screen" rel="stylesheet" type="text/css">
-<link href="css/haze.css" media="screen" rel="stylesheet" type="text/css">
-<link href='http://fonts.googleapis.com/css?family=Norican' rel='stylesheet' type='text/css'>
 
-<script>
-	function betaSignup(){
-		$.ajax({
-			url:'beta.php',
-			data: {email:$('#email').val(),
-			complete:finish
-		}
-		})
-	}
-	function finish(response){
-		alert('You\'ve been added');
-	}
-</script>
+<!-- Home Page Styles -->
+<link href="stylesheets/home10.css" rel="stylesheet">
+<!-- Main Template Styles -->
+<link href="stylesheets/main.css" rel="stylesheet">
+<!-- Main Template Responsive Styles -->
+<link href="stylesheets/main-responsive.css" rel="stylesheet">
+<!-- Standard Favicon--> 
+<link rel="shortcut icon" href="images/favicon/favicon.ico">
+<!-- Sign up Styles -->
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,700">
+
+
+<!-- Standard iPhone Touch Icon--> 
+<link rel="apple-touch-icon" sizes="57x57" href="images/touchicons/apple-touch-icon-57-precomposed" />
+<!-- Retina iPhone Touch Icon--> 
+<link rel="apple-touch-icon" sizes="114x114" href="assets/touchicons/apple-touch-icon-114-precomposed" />
+<!-- Standard iPad Touch Icon--> 
+<link rel="apple-touch-icon" sizes="72x72" href="assets/touchicons/apple-touch-icon-72-precomposed" />
+<!-- Retina iPad Touch Icon--> 
+<link rel="apple-touch-icon" sizes="144x144" href="assets/touchicons/apple-touch-icon-144-precomposed" />
+
+<!-- Bootstrap CSS Files -->
+<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+<link href="bootstrap/css/bootstrap-theme.css" rel="stylesheet">
+<!-- Custom Fonts Setup via Font-face CSS3 -->
+<link href="fonts/fonts.css" rel="stylesheet">
+<!-- CSS files for plugins -->
+<link href="stylesheets/pace.preloader.css" rel="stylesheet">
+<link href="stylesheets/slidingmenu.css" rel="stylesheet">
+<link href="stylesheets/simpletextrotator.css" rel="stylesheet" >
+<link href="stylesheets/animated-buttons.css" rel="stylesheet" >
+<link href="stylesheets/owl.carousel.css" rel="stylesheet">
+<link href="stylesheets/owl.theme.css" rel="stylesheet">
+<link href="stylesheets/prettyPhoto.css" rel="stylesheet">
+<link href="stylesheets/magnific-popup.css" rel="stylesheet" > 
+<link href="stylesheets/jquery.tweet.css" rel="stylesheet"/>
+<!-- Animated Elements -->
+<link href="stylesheets/animate.css" rel="stylesheet">
+<link href="stylesheets/effects.css" rel="stylesheet">
+<!-- Home Page Styles -->
+<link href="stylesheets/home10.css" rel="stylesheet">
+<!-- Main Template Styles -->
+<link href="stylesheets/main.css" rel="stylesheet">
+<!-- Main Template Responsive Styles -->
+<link href="stylesheets/main-responsive.css" rel="stylesheet">
+<!-- Main Template Retina Optimizaton Rules -->
+<link href="stylesheets/main-retina.css" rel="stylesheet">
+<!-- LESS stylesheet for managing color presets -->
+<link rel="stylesheet/less" type="text/css" href="less/demo-color-blue.less">
+<!-- LESS JS engine-->
+<script src="less/less-1.5.0.min.js"></script>
+<!-- countdown styles -->
+<link href="stylesheets/countdown.css" rel="stylesheet"/>
+
+
+
+ <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="bootstrap/js/html5shiv.js"></script>
+      <script src="bootstrap/js/respond.min.js"></script>
+    <![endif]-->
+
+<!-- Modernizr Library-->
+<script src="javascripts/modernizr.custom.js"></script>
 
 </head>
 
-<!-- ===== BODY ATTRIBUTES ARE FOR NAVIGATION SCROLLSPY AND GOOGLE MAP LOAD ===== -->
-<body data-offset="80" data-spy="scroll" data-target=".top-menu" onload="initialize()">
 
-<!-- ===== PAGE LOADER GRAPHIC ===== -->
-<div id="pageloader">
-	<div class="loader-img">
-		<img alt="loader" src="img/loader.gif" />
-	</div>
-</div>
-<!-- ======================================== -->
-<!-- ============== START TOP MENU ============= -->
-<!-- ======================================== -->
-<div class="top-menu" data-scroll-header="">
-	<a data-easing="easeInOutCubic" data-scroll="" data-speed="500" data-url="false" href="#home">
-	<div class="logo">PRINT HINT</div>
-	</a>
-	<div id="navigation-button">
-		<i class="fa fa-bars fa-fw"></i></div>
-	<!-- ============== NAVIGATION ATTRIBUTES ARE FOR SMOOTHSCROLLING TO ANCHOR LINKS ============= -->
-	<ul class="nav drop-down">
-		<li>
-		<a data-easing="easeInOutCubic" data-scroll="" data-speed="500" data-url="false" href="#home">
-		Home</a></li>
-		<li>
-		<a data-easing="easeInOutCubic" data-scroll="" data-speed="500" data-url="false" href="#about">
-		About</a></li>
-		<li>
-		<a data-easing="easeInOutCubic" data-scroll="" data-speed="500" data-url="false" href="#services">
-		Services</a></li>		
-		<li>
-		<a data-easing="easeInOutCubic" data-scroll="" data-speed="500" data-url="false" href="#contact">
-		Contact</a></li>
-		<!--<li><a href="shortcodes.html">Shortcodes</a></li>-->
-	</ul>
-</div>
-<!-- ======================================== -->
-<!-- =============== END TOP MENU ============== -->
-<!-- ======================================== -->
-<!-- ======================================== -->
-<!-- ============ START HOME SECTION ============ -->
-<!-- ======================================== -->
-<section id="home">
-<!-- ======================================= -->
-<!-- ========== START REVOLUTION SLIDER ========== -->
-<!-- ======================================== -->
-<div class="tp-banner-container">
-	<div class="tp-banner">
-		<ul>
-			
-			
-			<!-- SLIDE 1 -->
-			<li data-masterspeed="700" data-slotamount="5" data-transition="fade">
-		<div class="tp-caption img-overlay1" data-start="0" data-transition="fade">
-			</div>
-			<!-- MAIN IMAGE -->
-			<img alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat" src="img/3d1.jpg">
-			<!-- HAZE LOGO -->
-			<div class="tp-caption super_large_bold_white customin customout start" 
-			data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;" 
-			data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" 
-			data-easing="Back.easeInOut" 
-			data-endspeed="300" 
-			data-hoffset="0" 
-			data-speed="1000" 
-			data-start="1000" 
-			data-x="center" 
-			data-y="50">
-				PRINT HINT </div>
-			<!-- LAYER 1 -->
-			<div class="tp-caption large_bold_white customin customout start" 
-			data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;" 
-			data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" 
-			data-easing="Back.easeInOut" 
-			data-endspeed="300" 
-			data-hoffset="0" 
-			data-speed="1000" 
-			data-start="2000" 
-			data-end="4000" 
-			data-x="center" 
-			data-y="center">
-				Top 3D news from the industry
-				</div>
-				
-				<!-- LAYER 2 -->
-				<div class="tp-caption large_bold_white customin customout start" 
-				data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;" 
-				data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" 
-				data-easing="Back.easeInOut" 
-				data-endspeed="300" 
-				data-hoffset="0" 
-				data-speed="1000" 
-				data-start="3500" 
-				data-end="5500"
-				data-x="center" 
-				data-y="center">
-				Educate yourself from 3 to D
-				</div>
-				
-				<!-- LAYER 3 -->
-				<div class="tp-caption large_bold_white customin customout start" 
-				data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;" 
-				data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" 
-				data-easing="Back.easeInOut" 
-				data-endspeed="300" 
-				data-hoffset="0" 
-				data-speed="1000" 
-				data-start="5000"
-				data-end="8500"				
-				data-x="center" 
-				data-y="center">
-				Design your own creations
-				</div>
-				<!-- LAYER 4 -->
-				<div class="tp-caption sfb" 
-				data-easing="Back.easeInOut" 
-				data-endspeed="300" 
-				data-speed="1000" 
-				data-start="6000" 
-				data-end="8500"
-				data-x="center"
-				data-hoffset="0"
-				data-voffset="100"
-				data-y="center">
-				<i class="im-fire color-white bg-primary slider-icon"></i>
-				</div>
-				<!-- LAYER 5 -->
-				<div class="tp-caption sfl" 
-				data-easing="Back.easeInOut" 
-				data-endspeed="300" 
-				data-speed="1000" 
-				data-start="6300" 
-				data-end="8500"
-				data-x="center"
-				data-hoffset="-100"
-				data-voffset="100"
-				data-y="center">
-				<i class="im-wand color-white bg-primary slider-icon"></i>
-				</div>
-				<!-- LAYER 6 -->
-				<div class="tp-caption sfr" 
-				data-easing="Back.easeInOut" 
-				data-endspeed="300" 
-				data-speed="1000" 
-				data-start="6600" 
-				data-end="8500"
-				data-x="center"
-				data-hoffset="100"
-				data-voffset="100"
-				data-y="center">
-				<i class="im-mail2 color-white bg-primary slider-icon"></i>
-				</div>
-		<!-- LAYER 7 -->
-				<div class="tp-caption sfl" 
-				data-easing="Back.easeInOut" 
-				data-endspeed="300" 
-				data-speed="1000" 
-				data-start="6900" 
-				data-end="8500"
-				data-x="center"
-				data-hoffset="-200"
-				data-voffset="100"
-				data-y="center">
-				<i class="im-leaf color-white bg-primary slider-icon"></i>
-				</div>
-				<!-- LAYER 8 -->
-				<div class="tp-caption sfr" 
-				data-easing="Back.easeInOut" 
-				data-endspeed="300" 
-				data-speed="1000" 
-				data-start="7200" 
-				data-end="8500"
-				data-x="center"
-				data-hoffset="200"
-				data-voffset="100"
-				data-y="center">
-				<i class="im-twitter color-white bg-primary slider-icon"></i>
-				</div>
-					<!-- LAYER 9 -->
-				<div class="tp-caption large_bold_white customin customout start" 
-				data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;" 
-				data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" 
-				data-easing="Back.easeInOut" 
-				data-endspeed="300" 
-				data-hoffset="0" 
-				data-speed="1000" 
-				data-start="8500"
-				data-end="10000"				
-				data-x="center" 
-				data-y="center">
-				Download our app
-				</div>
-				<!-- LAYER 10 -->
-				<div class="tp-caption large_bold_white customin customout start" 
-				data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;" 
-				data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" 
-				data-easing="Back.easeInOut" 
-				data-endspeed="300" 
-				data-hoffset="0" 
-				data-speed="1000" 
-				data-start="10000"
-				data-end="11500"				
-				data-x="center" 
-				data-y="center">
-				Build your own products
-				</div>
-				<!-- LAYER 11 -->
-				<div class="tp-caption large_bold_white customin customout start" 
-				data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;" 
-				data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" 
-				data-easing="Back.easeInOut" 
-				data-endspeed="300" 
-				data-hoffset="0" 
-				data-speed="1000" 
-				data-start="11500"
-				data-end="13000"				
-				data-x="center" 
-				data-y="center">
-				Follow treading topics
-				</div>
-				<!-- LAYER 12 -->
-				<div class="tp-caption large_bold_white customin customout start" 
-				data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;" 
-				data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" 
-				data-easing="Back.easeInOut" 
-				data-endspeed="300" 
-				data-hoffset="0" 
-				data-speed="1000" 
-				data-start="13000"			
-				data-x="center" 
-				data-y="center">
-				Learn some 3D hacks
-				</div>
-				<!-- BUTTON -->
-			<div class="tp-caption sft" data-easing="Back.easeInOut" data-endspeed="300" data-voffset="300" data-speed="1000" data-start="1000" data-x="center" data-y="center">
-				<a class="btn btn-primary btn-round btn-outline" style="width: 50px; height: 50px; padding: 0; padding-top: 10px; font-size: 18px" data-easing="easeInOutCubic" data-scroll="" data-speed="500" data-url="false" href="#about">
-				<i class="fa fa-chevron-down"></i></a></div>
-			</li>
-			
-			
-			<!-- SLIDE 2 -->
-			<li data-masterspeed="700" data-slotamount="5" data-transition="fade">
-			<div class="tp-caption img-overlay1" data-start="0" data-transition="fade">
-			</div>
-			<!-- MAIN IMAGE -->
-			<img alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat" src="img/pictures/walkway.jpg">
-						<!-- HAZE LOGO -->
-			<div class="tp-caption super_large_bold_white customin customout start" 
-			data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;" 
-			data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" 
-			data-easing="Back.easeInOut" 
-			data-endspeed="300" 
-			data-hoffset="0" 
-			data-speed="1000" 
-			data-start="1000" 
-			data-x="center" 
-			data-y="50">
-				PRINT HINT </div>
-				
-				<!-- LAYER 2 -->
-			<div class="tp-caption medium_light_white sft text-center" data-easing="Back.easeInOut" data-endspeed="300" data-hoffset="0" data-speed="1000" data-start="1100" data-x="center" data-y="230">
-				Print Hint puts you in 3D<br>Learn, build, and share with our application</div>
-				
-				<!-- BUTTON -->
-			<div class="tp-caption sft" data-easing="Back.easeInOut" data-endspeed="300" data-hoffset="0" data-speed="1000" data-start="1200" data-x="center" data-y="375">
-					<a class="btn btn-primary btn-round btn-outline" style="width: 50px; height: 50px; padding: 0; padding-top: 10px; font-size: 18px" data-easing="easeInOutCubic" data-scroll="" data-speed="500" data-url="false" href="#about">
-				<i class="fa fa-chevron-down"></i></a></div>
-			</li>
-		</ul>
-		<div class="tp-bannertimer tp-bottom">
+<body>
+<!-- top-banner : starts -->
+<div id="intro">
+	<div class="vertical-center top-banner-caption-v1">
+		<div class="logo-emblem">
+		<img alt="" title="" src="images/badge-blue.png"/>
 		</div>
-	</div>
-</div>
-<!-- ======================================= -->
-<!-- ========== END REVOLUTION SLIDER ========== -->
-<!-- ======================================== -->
-<!-- ======================================= -->
-<!-- ========== START MISSION STATEMENT ========== -->
-<!-- ======================================== -->
-<div class="fullwidth-section bg-primary-dark">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 text-center">
-				<h1 class="color-white weight-300">Reach new dimensions with
-				<strong class="color-primary">PRINT HINT</strong></h1>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- ======================================= -->
-<!-- ========== END MISSION STATEMENT ========== -->
-<!-- ======================================== -->
-</section>
-<!-- ======================================== -->
-<!-- ============= END HOME SECTION ============ -->
-<!-- ======================================== -->
-<!-- ======================================== -->
-<!-- ============ START ABOUT SECTION =========== -->
-<!-- ======================================== -->
-<section id="about">
-<div class="fullwidth-section">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 text-center">
-				<h1 class="weight-300" style="margin-bottom: 40px">Find out what it takes to get <strong class="color-primary">3D</strong>!</h1>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-4 text-center">
-				<div class="cre-animate" data-animation="slide-up-from-bottom" data-delay="250" data-easing="easeInOutBack" data-offset="80%" data-speed="750">
-					<div class="icon-feature-3column">
-						<i class="im-wand color-primary"></i>
-						<h4>Build with Magic (kinda)</h4>
-						<p>The magic of 3D printing is that the only limit is your imagination. Build any object as large or small as you see it with out design tools or upload your own and have it appear at your door.</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 text-center">
-				<div class="cre-animate" data-animation="slide-up-from-bottom" data-delay="500" data-easing="easeInOutBack" data-offset="80%" data-speed="750">
-					<div class="icon-feature-3column">
-						<i class="im-support color-primary"></i>
-						<h4>Support</h4>
-						<p>Whether you need information regarding new 3D printers or a breakdown of which materials would work best for your product, Print Hint is here to make that information easy to understand and accessible at anytime.</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 text-center">
-				<div class="cre-animate" data-animation="slide-up-from-bottom" data-delay="750" data-easing="easeInOutBack" data-offset="80%" data-speed="750">
-					<div class="icon-feature-3column">
-						<i class="im-fire color-primary"></i>
-						<h4>News</h4>
-						<p>In the quickly emerging and evolving area of 3D printing, staying up to date can be difficult. At Print Hint we will provide you with the most recent and revelant information regarding the field.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-</section>
-
-<!-- ===== START QUOTES ROTATOR 	===== -->
-<!-- ===== REMOVED QUOTES ROTATOR 	===== -->
-<!-- ===== END QUOTES ROTATOR 		===== -->
-<!-- ============================================ -->
-<!-- ============== END ABOUT SECTION ============== -->
-<!-- ============================================ -->
-<!-- ============================================ -->
-<!-- =============== START TEAM SECTION ============= -->
-<!-- ============================================ -->
-<!--  TEAM SECTION REMOVED -->
-<!-- ============================================ -->
-<!-- ================ END TEAM SECTION ============== -->	
-<!-- ============================================ -->
-<!-- ============================================ -->
-<!-- ============= START FEATURES SECTION ============= -->
-<!-- ============================================ -->
-<!--
-<section id="features">
--->
-<!-- ===== PARALLAX BACKGROUND ===== -->
-
-<div class="parallax" data-stellar-background-ratio="0.4" data-stellar-vertical-offset="0" style="background-image: url(img/pictures/city.jpg); height: 450px">
-	<div class="img-overlay1"></div>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<div class="cre-animate" data-animation="slide-in-from-left" data-delay="0" data-easing="easeInOutBack" data-offset="60%" data-speed="750">
-					<h1 style="margin-top: 150px; z-index: 20; color:#FF4D50;">Reach new dimensions 
-					with PRINT HINT</h1>
-				</div>
-				<div class="cre-animate" data-animation="slide-in-from-left" data-delay="250" data-easing="easeInOutBack" data-offset="60%" data-speed="750">
-					<h2>Learn + Build + Share</h2>
-				</div>
-			</div>
-		</div>
+		<h3><span>Welcome to Print Hint</span></h3>
+		<h1 class="text-rotator-fade"><span class="rotate">TOP  3D NEWS, EVERYTHING 3D, SIGN UP NOW</span></h1>
 	</div>
 </div>
 
-<!-- ============================================ -->
-<!-- ============= END FEATURES SECTION ============= -->
-<!-- ============================================ -->
-<!-- ============================================ -->
-<!-- ============= START SERVICES SECTION ============ -->
-<!-- ============================================ -->
 
-<section id="services">
-<div class="parallax" data-stellar-background-ratio="0.3" data-stellar-vertical-offset="0" style="height: 200px">
-	<div class="img-overlay1">
-	</div>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<div class="cre-animate" data-animation="slide-in-from-left" data-delay="0" data-easing="easeInOutBack" data-offset="60%" data-speed="500">
-					<h1 style="margin-top: 100px; z-index: 20">Use PRINT HINT to find local 3D resources</h1>
-				</div>
-				<div class="cre-animate" data-animation="slide-in-from-left" data-delay="250" data-easing="easeInOutBack" data-offset="60%" data-speed="500">
-					<h2></h2>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-<div class="fullwidth-section">
-	<div class="container">
-		
-		<!-- ========== 4 Column - Icon Feature Boxes ========== -->
-		<div class="row" style="margin-top: 40px">
-			<div class="col-md-12">
-				<h3><strong>You need a Print Hint</strong></h3>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-3 text-center">
-				<div class="cre-animate" data-animation="slide-in-from-right" data-delay="250" data-easing="easeInOutBack" data-offset="80%" data-speed="750">
-					<div class="icon-feature-4column">
-						<i class="im-wand color-secondary"></i>
-						<h4>Customizations</h4>
-						<p>Search resources to make sence of the complex world that is 3D Design</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-3 text-center">
-				<div class="cre-animate" data-animation="slide-in-from-right" data-delay="450" data-easing="easeInOutBack" data-offset="80%" data-speed="750">
-					<div class="icon-feature-4column">
-						<i class="im-support color-secondary"></i>
-						<h4>Social Networking</h4>
-						<p>Communicate with other 3D hobbists, technicians, hackers, designers, and enthusiasts.</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-3 text-center">
-				<div class="cre-animate" data-animation="slide-in-from-right" data-delay="650" data-easing="easeInOutBack" data-offset="80%" data-speed="750">
-					<div class="icon-feature-4column">
-						<i class="im-fire color-secondary"></i>
-						<h4>Hot Trends</h4>
-						<p>Be apart of something new.  Print Hint is your gateway to this emerging market.</p>
-					</div>
-				</div>
-			</div>
-		</div>
+
+
+<!-- COUNTDOWN BEGINS -->
+
+
+<ul id="countdown">
+  <li><span class="days timenumbers yellow-text">00</span>
+      <p class="timeRefDays timedescription">days</p></li>
+  <li><span class="hours timenumbers yellow-text">00</span>
+      <p class="timeRefHours timedescription">hours</p></li>
+  <li><span class="minutes timenumbers yellow-text">00</span>
+      <p class="timeRefMinutes timedescription">minutes</p></li>
+  <li><span class="seconds timenumbers yellow-text">00</span>
+      <p class="timeRefSeconds timedescription">seconds</p></li>
+</ul>
+
+
+<!-- COUNTDOWN ENDS -->
+
+
+
+
+
+<!--Beta Signup Form Begins -->
+
+<!-- insert form here -->
+
+<!--Beta Signup Form Ends -->
+
+
 	
-		<!-- ========== Removed Icon Feature Boxes Inline Alternative ========== -->
-	</div>
 </div>
+<!-- top-banner : ends -->
 
-<!-- START OF FULLWIDTH BUTTON -->
+<!-- Background Video PLayer -->
 
-<div class="cre-animate" data-animation="slide-up-from-bottom" data-delay="0" data-easing="easeInOutBack" data-offset="80%" data-speed="1000">
-	<a href="#"><span class="btn btn-fullwidth btn-secondary btn-3d">
-	<span class="container">
-		<span class="row">
-			<span class="col-md-12 text-center" style="vertical-align: middle">
-				<span class="color-white weight-300 text-center">Click here to download <strong>Print Hint</strong> for your mobile device
-				<i class="im-redo2"></i></span></span>
-		</span>
-	</span>
-	</span></a></div>
+<a id="bgndVideo" class="player" data-property="{videoURL:'http://www.youtube.com/watch?v=9UjOVviiQ9g',containment:'body',autoPlay:true, mute:true, startAt:1, opacity:1}">bg</a>
 
-<!-- END OF FULLWIDTH BUTTON -->
+<!-- Countdown JS-->
+<script src="javascripts/countdown.js"></script>
+<!-- Core JS Libraries -->
+<script src="bootstrap/js/jquery.js" type="text/javascript"></script>
+<script src="javascripts/jquery.easing.1.3.js" type="text/javascript"></script>
+<script src="bootstrap/js/bootstrap.js" ></script> 
+<!-- JS Plugins -->
 
-<!-- TABLET SECTION -->
+<script src="javascripts/pace.min.js"></script>
+<script src="javascripts/retina.js" ></script> 
+<script src="javascripts/slidingmenu.js" ></script> 
+<script src="javascripts/waypoints.min.js"></script>
+<script src="javascripts/jquery.touchSwipe.js"></script>
+<script src="javascripts/jquery.sudoSlider.designova.js"></script>
+<script src="javascripts/owl.carousel.js"></script>
+<script src="javascripts/jquery.mixitup.js"></script>
+<script src="javascripts/flexslider.js" ></script> 
+<script src="javascripts/jquery.magnific-popup.js"></script> 
+<script src="javascripts/jquery.tweet.js"></script>
+<script src="javascripts/jquery.stellar.js"></script>
+<script src="javascripts/classie.js" ></script> 
+<script src="javascripts/jquery.appear.js"></script>
+<script src="javascripts/prettyPhoto.js" ></script> 
+<script src="javascripts/jquery.simple-text-rotator.js" ></script>
+<script src="javascripts/smooth-scroll.js"></script>
+<script src="javascripts/jquery.mb.YTPlayer.js"></script>
+<script src="javascripts/device.min.js" ></script> 
+<!-- JS Custom Codes -->
+<script src="javascripts/simple-text-rotator-init.js" ></script> 
+<script src="javascripts/sudoslider-touch-init.js"></script>
+<script src="javascripts/portfolio.js" ></script> 
+<script src="javascripts/form-validation.js" ></script> 
+<script src="javascripts/animate-init.js" ></script> 
+<script src="javascripts/bgvideo-youtube-init.js" ></script> 
+<!-- Main JS File -->
+<script src="javascripts/main.js" ></script> 
+<!-- Signup js -->
+<script src="javascripts/signup.js"></script>
 
-<div class="fullwidth-section" style="background-image: url(img/pictures/haze.jpg);">
-	<div class="img-overlay3" style="background-color: rgba(47,54,64,0.65)">
-	</div>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<div class="cre-animate" data-animation="fade-in" data-delay="500" data-easing="ease" data-offset="80%" data-speed="1000">
-					<h1 class="weight-300 color-white text-center" style="margin-bottom: 40px">
-					Contact <strong>Print Hint</strong></h1><br />
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-12 text-center">
-				<div class="cre-animate" data-animation="slide-up-from-bottom" data-delay="500" data-easing="ease" data-offset="80%" data-speed="1000">
-					<!-- Nice place to put a logo!
-					<img class="img-responsive" src="img/pictures/mockup.png" alt="img"></div>-->
-			</div>
-		</div>
-	</div>
-</div>
 
 
-<!-- FEATURES COUNTERS -->
-
-<!-- ============================================ -->
-<!-- ============== START CONTACT SECTION ============ -->
-<!-- ============================================ -->
-	<section id="contact">
-	<div class="fullwidth-section">
-		<div class="img-overlay3" style="background-color: rgba(47,54,64,0.65)">
-		</div>
-		<div class="container">
-			<form id="formID" data-parsley-validate="" role="form">
-				<div class="row">
-					<div class="col-md-4 col-md-offset-2">
-						<div class="form-group">
-							<label>Tell us your name</label>
-							<input class="form-control" name="name" placeholder="" required="" type="text" />
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="form-group">
-							<label>What&#39;s your email address</label>
-							<input class="form-control" data-parsley-trigger="change" name="email" placeholder="" required="" type="email" />
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2">
-						<div class="form-group">
-							<label>Subject</label>
-							<input class="form-control" placeholder="" type="text" />
-						</div>
-						<div class="form-group">
-							<label>Let the cat out the bag</label>
-							<textarea class="form-control" placeholder="" required="" rows="8"></textarea>
-						</div>
-						<div class="text-center">
-							<button class="btn btn-outline" type="submit">Send Message
-							</button></div>
-					</div>
-				</div>
-			</form>
-		</div>
-</div>
-<!-- ======================================== -->
-<!-- ============= START MAP DISPLAY ============= -->
-<!-- ======================================== -->
-<div class="fullwidth-section half-padding kill-border" style="background-color: #373d49">
-	<div class="container">
-		<!-- ========== START FEATURE ROW - 3 COLUMN ========== -->
-		<div class="row">
-			<div class="col-md-12">
-				<h1 class="text-center kill-top-margin kill-bottom-margin weight-300" style="color: #FFF">
-				<strong>Our location</strong> on the map
-				<i class="fa fa-location-arrow"></i></h1>
-			</div>
-		</div>
-	</div>
-</div>
-<div class="map-wrapper">
-	<div id="map-canvas">
-	</div>
-</div>
-<!-- ======================================== -->
-<!-- ================ END MAP DISPLAY =========== -->
-<!-- ======================================== -->
-</section>
-<!-- ============================================ -->
-<!-- ============== END CONTACT SECTION ============ -->
-<!-- ============================================ -->
-<!-- ================================================== -->
-<!-- =============== START FOOTER SECTION ================ -->
-<!-- ================================================== -->
-<div class="footer fullwidth-section">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 text-center">
-				<div class="cre-animate" data-animation="scale-up" data-delay="250" data-easing="easeInOutBack" data-offset="90%" data-speed="750">
-					<h1 class="color-white weight-300 kill-top-margin" style="margin-bottom: 40px; font-size: 50px">
-					We are <strong>PRINT HINT!</strong></h1>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-12 text-center">
-				<span class="cre-animate" data-animation="slide-in-from-right" data-delay="750" data-easing="easeInOutBack" data-offset="90%" data-speed="750" style="margin-right: 15px;">
-				<i class="im-mobile"></i> 212 555-5555</span>
-				<span class="cre-animate" data-animation="slide-in-from-right" data-delay="1250" data-easing="easeInOutBack" data-offset="90%" data-speed="750" style="margin-right: 15px;">
-				<i class="im-location"></i> 1120 Avenue of the Americas, New York, NY, U.S</span>
-				<span class="cre-animate" data-animation="slide-in-from-right" data-delay="1750" data-easing="easeInOutBack" data-offset="90%" data-speed="750">
-				<i class="im-facebook"></i><i class="im-twitter"></i><i class="im-pinterest"></i><i class="im-dribbble"></i><i class="im-instagram"></i></span>
-				</div>
-		</div>
-	</div>
-</div>
-<div class="footer-bottom">
-	<div class="row">
-		<div class="col-md-6">
-			<span class="pull-left" style="font-size: 11px">© Copyright 2014 - All 
-			Rights Reserved 
-			</span>
-		</div>
-	</div>
-</div>
-<!-- ================================================== -->
-<!-- ================ END FOOTER SECTION ================= -->
-<!-- ================================================== -->
-<!-- ================================================== -->
-<!-- =============== START JQUERY SCRIPTS ================ -->
-<!-- ================================================== -->
-<script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
-<script src="js/bootstrap.min.js" type="text/javascript"></script>
-<script src="js/jquery.themepunch.revolution.min.js" type="text/javascript"></script>
-<script src="js/jquery.themepunch.plugins.min.js" type="text/javascript"></script>
-<script src="js/jquery.nicescroll.min.js" type="text/javascript"></script>
-<script src="js/jquery.nicescroll.plus.js" type="text/javascript"></script>
-<script src="js/jquery.prettyPhoto.js" type="text/javascript"></script>
-<script src="js/stellar.js" type="text/javascript"></script>
-<script src="js/parsley.js" type="text/javascript"></script>
-<script src="js/counter.js" type="text/javascript"></script>
-<script src="js/smooth-scroll.js" type="text/javascript"></script>
-<script src="js/jquery.isotope.min.js" type="text/javascript"></script>
-<script src="js/jquery.cre-animate.js" type="text/javascript"></script>
-<script src="http://maps.google.com/maps/api/js?sensor=true" type="text/javascript"></script>
-<script src="js/custom.js" type="text/javascript"></script>
-<!-- ================================================== -->
-<!-- ================ END JQUERY SCRIPTS ================= -->
-<!-- ================================================== -->
-<!-- ================================================== -->
-<!-- ============= START SCROLL TO TOP SCRIPT ============= -->
-<!-- ================================================== -->
-<div class="scrollup">
-	<a href="#"><i class="fa fa-chevron-up"></i></a></div>
-<!-- ================================================== -->
-<!-- ============== END SCROLL TO TOP SCRIPT ============== -->
-<!-- ================================================== -->
 
 </body>
-
 </html>
