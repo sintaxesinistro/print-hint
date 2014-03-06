@@ -1,0 +1,28 @@
+{
+register/users:{email:'x',
+			password:'x'}
+userPreferences:{userId:'x',
+			accountType:'x',
+			notificationSettings:'x',
+			emailPreferences:'x',
+			following:'x',
+			address:'x',
+			phone:'x'}
+news:{sourceName:'x',
+			link:'x',
+			summary:'x',
+			tags:'x'}
+directory:{type:'x',
+			name:'x',
+			level:'x',
+			summary:'x',
+			link:'x',
+			rnews:'x'}
+jobs:{name:'x',
+			description:'x',
+			pictures:'x',
+			amount:'x',
+			jobAddress:'x',
+			requesterId:'x',
+			repairId:'x'}
+}

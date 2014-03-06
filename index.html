@@ -173,12 +173,53 @@ input[type="text"]{
 	  <p><input type='text' id='email' placeholder='email'/></p>
 	  <input type='submit' value='Submit' />
 	</form>
+
+
+	<br><br>
+<div>
+	<form action='javascript:login()'>
+	  <p><input type='text' id='email1' placeholder='email'/></p>
+
+	  <p><input type='password' id='password' placeholder='password'/></p>
+	  <input type='submit' value='Submit' />
+	</form>
+
+</div>
 </div>
 
 <script>
+
+
+function login(){
+
+
+	email = $('#email1').val();
+	password= $('#password').val();
+	$.ajax({
+		'url':'cloud/login.php',
+		'data':{'email':email, 'password':password},
+		complete:loginFinish
+	})
+}
+
+
+function loginFinish(transport){
+
+	resp = transport.responseText;
+	resp=$.parseJSON(resp);
+	if(resp['status'] == "success"){
+
+		window.location="home.html";
+	}
+	else{
+		alert('Invalid Username or Password');
+	}
+}
+
+
 	function betaSignUp(){
 		$.ajax({
-			url:'beta.php',
+			url:'login.php',
 			data: {email:$('#email').val()},
 			complete:finish
 		
