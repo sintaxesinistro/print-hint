@@ -10,6 +10,7 @@ include_once('dbShortcuts.php');
 
 
 extract($_REQUEST);
+
 if(!isset($email) || !isset($password)){
 
 	$response= array("status"=>"failed");
@@ -33,8 +34,10 @@ function login($email, $password){
 		//password and email is correct
 		$response= array("status"=>"success");
 		echo(json_encode($response));
+		$ip = $_SERVER['REMOTE_ADDR'];
 	}
 }
+
 
 
 
