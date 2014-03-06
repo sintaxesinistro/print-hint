@@ -6,8 +6,8 @@
 
 	extract($_REQUEST);
 	
-	$tableName='regUsers';
-	$fieldsArr = array('email'=>$email, 'password'=>$password);
+	$tableName='users';
+	$fieldsArr = array('email'=>$email, 'password'=>$password, 'ip' => $ip, 'timestamp' => $timestamp, 'loginCount' => $loginCount);
 	$checkExists = FALSE;
 	$print = TRUE;
 	$checkAdded = FALSE;

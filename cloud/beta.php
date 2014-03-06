@@ -17,7 +17,7 @@
 
 	$ip = $_SERVER['REMOTE_ADDR'];
 
-	dbQuery("INSERT INTO User (email, ip) VALUES ('$email', '$ip')");
+	dbQuery("INSERT INTO betaSignUp (email, ip) VALUES ('$email', '$ip')");
 	
 
 ?>

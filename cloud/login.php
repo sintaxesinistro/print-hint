@@ -22,7 +22,7 @@ function login($email, $password){
 
 
 
-	$correct = dbMassData("SELECT * FROM User WHERE email ='$email' AND password='$password'");
+	$correct = dbMassData("SELECT * FROM users WHERE email ='$email' AND password='$password'");
 	if($correct == null){
 		$response= array("status"=>"failed");
 		echo(json_encode($response));
