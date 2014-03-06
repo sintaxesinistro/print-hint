@@ -34,7 +34,9 @@ function login($email, $password){
 		//password and email is correct
 		$response= array("status"=>"success");
 		echo(json_encode($response));
+		$loginCount = dbMassData("SELECT loginCount FROM users WHERE email = '$email'") + 1
 		$ip = $_SERVER['REMOTE_ADDR'];
+		dbQUERY("INSERT INTO users(ip, loginCount) VALUES ($ip, $loginCount)");
 	}
 }
 
