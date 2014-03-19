@@ -35,5 +35,6 @@ include_once('dbShortcuts.php');
 
 			rollAdd($tableName, $fieldsArr, $checkExists, $print ,$checkAdded, $updateBool, $addNewFields);
 		}
+		
 	}
 ?>

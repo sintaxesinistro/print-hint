@@ -1,0 +1,33 @@
+#results ul {
+	list-style: none;
+	padding-left:0;
+}
+#results li {
+	border: 1px solid black;
+	width:100%;
+	height:18%;
+	display:block;
+	background-color: white;
+	padding:5px;
+}
+#results h4 {
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding-bottom: 4px;
+	max-width: 300px;
+	float: left;
+	padding-right: 20px;
+}
+#results a:link, #results a:active {
+ text-decoration: none;
+ color: black;
+
+}
+#results a:hover {
+	text-decoration: underline;
+}
+
+#results a:visited {
+	color:red;
+}
+

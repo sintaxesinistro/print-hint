@@ -1,12 +1,14 @@
 <?php
 
-include_once('settings.php');
 include_once('dbLib.php');
-include_once('dbShortcuts.php');
+
+loginUser(extract($_REQUEST));
+
+
 
 //$resp = loginUser('m@140ventures.com', 'popcorn1');
 //print_r($resp);
-	loginUser($email, $password);
+
 	function loginUser($email, $password){
 
 		if(!isset($email)){
@@ -31,18 +33,22 @@ include_once('dbShortcuts.php');
 	$ipAddress=$_SERVER['REMOTE_ADDR'];
 	//echo('ip='.$ipAddress);
 
-	$userInfo = dbMassData("SELECT * FROM User WHERE email = '$email' AND password='$password'");
+	$userInfo = dbMassData("SELECT * FROM users WHERE email = '$email' AND password='$password'");
 	if($userInfo!=null){
 
 		session_id();
 		session_start();
 		$_SESSION['userId']= $userInfo[0]['rId'];
-	
+		$_SESSION['uId']= $userInfo[0]['rId'];
+		$_SESSION['name']= $userInfo[0]['name'];
+		$_SESSION['email']= $userInfo[0]['email'];
+		$_SESSION['originalIP']= $userInfo[0]['ipAddress'];
+
 
 		$response = array("status"=>"success", "resp"=>$_SESSION);
 		
 		
-		return $response;
+		return json_encode($response);
 
 	}
 
@@ -50,7 +56,7 @@ include_once('dbShortcuts.php');
 		$response = array("status"=>"fail", "resp"=>"notValidPair");
 
 		
-		return $response;
+		return json_encode($response);
 
 
 	}
