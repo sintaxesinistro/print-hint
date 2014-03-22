@@ -10,7 +10,7 @@
 			$resp = array('status'=>'success');
 		}
 		else{
-			$resp = array('status'=>'fail');
+			$resp = array('status'=>'fail', 'reason'=>'something went horribly wrong');
 		}
 		return $resp;
 	}

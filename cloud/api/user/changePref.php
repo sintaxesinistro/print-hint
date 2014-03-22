@@ -1,13 +1,29 @@
 <?php
 	
+	
 	include_once('/home/content/80/11356380/html/3d/cloud/models/user/changePref.php');
 
 	extract($_REQUEST);
 
 	$userId = $_REQUEST['userId']
-	$name = $_REQUEST['name']
+	$accountType = $_REQUEST['accountType']
+	$notificationSettings = $_REQUEST['notificationSettings']
+	$emailPreferences = $_REQUEST['emailPreferences']
+	$following = $_REQUEST['following']
+	$phone = $_REQUEST['phone']
 
-	changePref($_REQUEST)
+
+	if ($userId == 'Blank'){
+		$resp = array('status'=>'fail','reason'=>'no id');
+		return json_encode($resp);
+	}
+	if ($accountType == 'Blank'){
+		$resp = array('status'=>'fail','reason'=>'no id');
+		return json_encode($resp);
+	}
+	
+
+	changePref($_REQUEST);
 
 
 ?>
