@@ -1,6 +1,6 @@
 <?php
 
-include_once('settings.php');
+include_once('/home/content/80/11356380/html/3d/cloud/models/db/settings.php');
 
 global $databaseName;
 $database=$databaseName;
