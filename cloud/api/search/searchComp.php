@@ -2,15 +2,18 @@
 	include_once('/home/content/80/11356380/html/3d/cloud/models/search/searchComp.php');
 
 	extract($_REQUEST);
-	$resp= array(0);
-	array_push($resp, searchComp($searchTerm));
-	if($resp[1] == null){
-		$resp[0] = ('status'=>'fail');
-		return json_encode($resp);
+	
+	$apiResp = searchComp($searchTerm);
+	
+	if($apiResp == null){
+		$resp = array('status'=>'fail', 'reason'=>'no companies with that name');
+		echo(json_encode($resp));
+		return;
 	}
 	else{
-		$resp[0] = ('status'=>'success');
-		return json_encode($resp);
+		$resp = array('status'=>'success', 'data' => $apiResp);
+		echo(json_encode($resp));
+		return;
 	}
 	
 ?>
