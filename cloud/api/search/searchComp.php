@@ -6,7 +6,7 @@
 	$apiResp = searchComp($searchTerm);
 	
 	if($apiResp == null){
-		$resp = array('status'=>'fail', 'reason'=>'no companies with that name');
+		$resp = array('status'=>'fail', 'data'=>$apiResp);
 		echo(json_encode($resp));
 		return;
 	}
