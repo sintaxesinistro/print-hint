@@ -1,10 +1,16 @@
 <?php
 	
-	include_once('/home/content/80/11356380/html/3d/cloud/models/addPref.php');
+	include_once('/home/content/80/11356380/html/3d/cloud/models/user/addPref.php');
 
 	extract($_REQUEST);
 
-	$userId = $_REQUEST['userId'];
+	session_start();
+	$userId=$_SESSION['userId'];
+	if(!isset($userId)){
+		$resp = array('status'=>'fail', 'reason'=>'user is not logged in');
+		echo(json_encode($resp));
+		return;
+	}
 	$accountType = $_REQUEST['accountType'];
 	$notificationSettings = $_REQUEST['notificationSettings'];
 	$emailPreferences = $_REQUEST['emailPreferences'];
@@ -12,31 +18,34 @@
 	$address = $_REQUEST['address'];
 	$phone = $_REQUEST['phone'];
 
-
-	if ($userId == 'Blank'){
-		$resp = array('status'=>'fail','reason'=>'id');
-		return json_encode($resp);
-	}
 	if ($accountType == 'Blank'){
 		$resp = array('status'=>'fail','reason'=>'accountType');
-		return json_encode($resp);
+		echo json_encode($resp);
+		return;
 	}
 	if ($notificationSettings == 'Blank'){
 		$resp = array('status'=>'fail','reason'=>'notificationSettings');
-		return json_encode($resp);
+		echo json_encode($resp);
+		return;
 	}
 	if ($emailPreferences == 'Blank'){
 		$resp = array('status'=>'fail','reason'=>'emailPreferences');
-		return json_encode($resp);
+		echo json_encode($resp);
+		return; 
 	}
 	if ($address == 'Blank'){
 		$resp = array('status'=>'fail','reason'=>'address');
-		return json_encode($resp);
+		echo json_encode($resp);
+		return; 
 	}
 	if ($phone == 'Blank'){
 		$resp = array('status'=>'fail','reason'=>'phone');
-		return json_encode($resp);
+		echo json_encode($resp);
+		return; 
 	}
-	$resp = changePref($userId, $accountType, $notificationSettings, $emailPreferences, $following, $address, $phone);
-	return json_encode($resp);
+	
+	$apiResp = changePref($userId, $accountType, $notificationSettings, $emailPreferences, $following, $address, $phone);
+	$resp = array('status'=>'success', 'data'=>$apiResp);
+	echo(json_encode($resp));
+	return; 
 ?>

@@ -1,8 +1,8 @@
 <?php
 
 include_once('dbLib.php');
-
-loginUser(extract($_REQUEST));
+extract($_REQUEST);
+loginUser($email, $password);
 
 
 
@@ -34,7 +34,8 @@ loginUser(extract($_REQUEST));
 	//echo('ip='.$ipAddress);
 
 	$userInfo = dbMassData("SELECT * FROM users WHERE email = '$email' AND password='$password'");
-	if($userInfo!=null){
+	//echo("SELECT * FROM users WHERE email = '$email' AND password='$password'");
+	if($userInfo!=NULL){
 
 		session_id();
 		session_start();
@@ -48,7 +49,7 @@ loginUser(extract($_REQUEST));
 		$response = array("status"=>"success", "resp"=>$_SESSION);
 		
 		
-		return json_encode($response);
+		echo json_encode($response);
 
 	}
 
@@ -56,7 +57,7 @@ loginUser(extract($_REQUEST));
 		$response = array("status"=>"fail", "resp"=>"notValidPair");
 
 		
-		return json_encode($response);
+		echo json_encode($response);
 
 
 	}

@@ -8,7 +8,7 @@
   function searchDirect($searchTerm){
 
 
-  	$searchResults = dbMassData("SELECT * FROM directory WHERE name LIKE '%$searchTerm%' OR category LIKE '%$searchTerm%'");
+  	$searchResults = dbMassData("SELECT * FROM directory WHERE name LIKE '%$searchTerm%' OR type LIKE '%$searchTerm%'");
 
     //$results = dbMassData("SELECT * FROM products WHERE name= '$term'")
     return $searchResults;

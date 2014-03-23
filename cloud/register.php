@@ -3,6 +3,8 @@
 include_once('dbLib.php');
 //extracts php headers and creates array
 extract($_REQUEST);
+
+//$password= md5($password);
 //calls register function with all info from php headers as paramaters
 $stat= register($name, $email, $password);
 //returns a json with the status from register function to ajax
@@ -58,7 +60,7 @@ function register($name, $email, $password){
 		$_SESSION['email']= $userInfo[0]['email'];
 		$_SESSION['originalIP']= $userInfo[0]['ipAddress'];
 
-		return json_encode($resp);
+		return $resp;
 
 	
 		
@@ -71,7 +73,7 @@ function register($name, $email, $password){
 		$response = array("status"=>"fail", "resp"=>"emailTaken");
 
 		
-		return json_encode($response);
+		return $response;
 
 
 	}
