@@ -7,7 +7,7 @@
 	extract($_REQUEST);
 	
 	$tableName='userPreferences';
-	$fieldsArr = array('userId'=>$userId, 'accountType'=>$accountType, 'notificationSettings'=>$notificationSettings, 'emailPreferences'=> $emailPreferences, 'following'=>$following, 'address'=>$address, 'phone'=>$phone);
+	$fieldsArr = array('userId'=>$userId, 'accountType'=>$accountType, 'notificationSettings'=>$notificationSettings, 'emailPreferences'=> $emailPreferences, 'following'=>$following, 'street'=>$street,'city'=>$city,'state'=>$state,'zipcode'=>$zipcode, 'phone'=>$phone);
 	$checkExists = FALSE;
 	$print = TRUE;
 	$checkAdded = FALSE;

@@ -11,13 +11,7 @@
 		echo(json_encode($resp));
 		return;
 	}
-	$accountType = $_REQUEST['accountType'];
-	$notificationSettings = $_REQUEST['notificationSettings'];
-	$emailPreferences = $_REQUEST['emailPreferences'];
-	$following = $_REQUEST['following'];
-	$address = $_REQUEST['address'];
-	$phone = $_REQUEST['phone'];
-
+	
 	if ($accountType == 'Blank'){
 		$resp = array('status'=>'fail','reason'=>'accountType');
 		echo json_encode($resp);
@@ -33,8 +27,23 @@
 		echo json_encode($resp);
 		return; 
 	}
-	if ($address == 'Blank'){
-		$resp = array('status'=>'fail','reason'=>'address');
+	if ($street == 'Blank'){
+		$resp = array('status'=>'fail','reason'=>'street');
+		echo json_encode($resp);
+		return; 
+	}
+	if ($city == 'Blank'){
+		$resp = array('status'=>'fail','reason'=>'city');
+		echo json_encode($resp);
+		return; 
+	}
+	if ($state == 'Blank'){
+		$resp = array('status'=>'fail','reason'=>'state');
+		echo json_encode($resp);
+		return; 
+	}
+	if ($zipcode == 'Blank'){
+		$resp = array('status'=>'fail','reason'=>'zipcode');
 		echo json_encode($resp);
 		return; 
 	}
@@ -44,7 +53,7 @@
 		return; 
 	}
 	
-	$apiResp = changePref($userId, $accountType, $notificationSettings, $emailPreferences, $following, $address, $phone);
+	$apiResp = changePref($userId, $accountType, $notificationSettings, $emailPreferences, $following, $street, $city, $state, $zipcode, $phone);
 	$resp = array('status'=>'success', 'data'=>$apiResp);
 	echo(json_encode($resp));
 	return; 

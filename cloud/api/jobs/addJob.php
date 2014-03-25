@@ -3,6 +3,16 @@
 	//$resp = addJob
 	extract($_REQUEST);
 
+	session_start();
+	$userId = $_SESSION['userId'];
+	if(!isset($userId)){
+
+		$resp = array("status"=>"fail", "reason"=>"user not logged in");
+		//return json
+		echo(json_encode($resp));
+		return;
+	}
+
 	if($name == 'Blank'){
 		$resp = array('status'=>'fail','reason'=>'name');
 		echo json_encode($resp);

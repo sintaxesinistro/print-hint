@@ -7,7 +7,7 @@
 	extract($_REQUEST);
 	
 	$tableName='jobs';
-	$fieldsArr = array('name'=>$name, 'description'=>$description,'pictures'=>$pictures ,'amount'=>$amount, 'jobAddress'=> $jobAddress,'requesterId'=>$requesterId, 'repairerId'=>$repairerId);
+	$fieldsArr = array('name'=>$name, 'description'=>$description,'pictures'=>$pictures ,'amount'=>$amount, 'street'=> $street,'city'=> $city,'state'=> $state,'zipcode'=> $zipcode,'requesterId'=>$requesterId, 'repairerId'=>$repairerId, 'status'=>$status, 'update'=>$update);
 	$checkExists = FALSE;
 	$print = TRUE;
 	$checkAdded = FALSE;

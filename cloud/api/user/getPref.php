@@ -14,8 +14,8 @@
 	
 	$apiResp = getPref($userId);
 	$resp = array('status'=>'success', 'data'=>$apiResp);
-
 	echo(json_encode($resp));
+	return;
 
 ?>
 

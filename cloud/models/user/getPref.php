@@ -11,11 +11,10 @@
 		$userId = intval($userId);
 		//$resp = array(0, 0);
 		//array_push($resp, dbMassData("SELECT * FROM userPreferences WHERE  rId = $userId"));
-		$data =  dbMassData("SELECT * FROM userPreferences WHERE  rId = $userId ORDER BY timestamp DESC LIMIT 1");
+		$data =  dbMassData("SELECT * FROM userPreferences WHERE  userId = $userId ORDER BY timestamp DESC LIMIT 1");
 		if($data != NULL){
 
-			$resp=array("status"=>"success");
-			$resp['data']=$data[0];
+			$resp=array("status"=>"success", 'data'=>$data);
 			return($resp);
 		}
 		else{

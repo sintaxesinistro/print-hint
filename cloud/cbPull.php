@@ -7,7 +7,7 @@ include_once('dbLib.php');
 
 include_once('dbShortcuts.php');
 
-	for($k=1; $k<299; $k++){
+	for($k=117; $k<299; $k++){
 		$url = "http://api.crunchbase.com/v/1/search.js?query=3d&page=".$k."&api_key=6zhgsuk3cq4jw4hap9hrdtpd";
 		$jsondata = file_get_contents($url);
 		$comArray = json_decode($jsondata, true);
