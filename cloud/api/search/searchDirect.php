@@ -4,8 +4,8 @@
 	extract($_REQUEST);
 	
 	$apiResp = searchDirect($searchTerm);
-
-	if($apiResp == null){
+	
+	if($apiResp == NULL){
 		$resp = array('status'=>'fail', 'data'=>$apiResp);
 		echo(json_encode($resp));
 		return;

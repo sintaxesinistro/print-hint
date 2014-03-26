@@ -1,0 +1,25 @@
+function searchDirect(){
+	
+	$.ajax({
+	url:'http://printhint.com/cloud/api/search/searchDirect.php',
+	data: {'searchTerm':$('#searchTerm'.val())},
+	complete:searchResults
+	})
+
+}
+
+function searchResults(transport){
+	
+	resp = transport.responseText;
+	resp = $.parseJSON(resp);
+	if (resp['status'] == 'fail'){
+		alert('working but nothing found')
+		$('#resultsList').append('<h4>Nothing Found</h4>')
+	}
+	if(resp['status']=='success'){
+	  for (k in resp['data']['data']){
+	  
+	  $('#resultsList').append("<li><h4>"+resp['data']['data'][k][name]+"</h4><a href='"+resp['data']['data'][k][homepage]+"' id='compWebsite'>Website</a> <p id='compOverview'>"+resp['data']['data'][k][overview]+"</p></li>")
+	  }
+	}
+}

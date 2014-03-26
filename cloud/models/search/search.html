@@ -1,47 +1,53 @@
-<doctype html>
+<!DOCTYPE html>
+<html>
 	<head>
 		<link href='search.css' rel='stylesheet'>
 		<script src='http://code.jquery.com/jquery-1.11.0.min.js'></script>
 	</head>
 	<body>
 		
-		<form action='javascript:searchFunc' method='POST'>
-		  <input type='text' id='searchTerm'placeholder='Search'>
+		<form action='javascript:searchComp()' method='POST'>
+		  <input type='text' id='searchTerm' placeholder='Search'>
 		  <input type='submit' value='Submit'>
 		</form>
 		
 	  <div id="results">
-		  <ul id=resultsList>
+		  <ul id='resultsList'>
+			  <!--
 			  <li><h4>Name</h4><a href='#' id='compWebsite'>Website</a> <p id='compOverview'>Overview<p></li>
 			  <li><h4>Name</h4><a href='#' id='compWebsite'>Website</a> <p id='compOverview'>Overview<p></li>
+		  	-->
 		  </ul>
 	  </div>
 	  
 	  <script>
-	    function searchFunc(){
-	      searchTerm = $('#searchTerm').val();
-	      $.ajax({
-	        url:'search.php',
-	        data: {'searchTerm':searchTerm},
-	        complete:returnSearch
-	      })
-	    }
-	    
-	    function returnSearch(transport){
-	      resp = transport.responseText;
-	      resp = $.parseJSON(resp);
-	      if(resp[status]=='success'){
-	        for (k in resp['resp']){
-	          //I am not sure if this is the right way to write this.
-	          $('#resultsList').append("<li><h4>"+resp[k][name]+"</h4><a href='"+resp[k][homepage]+"' id='compWebsite'>Website</a> <p id='compOverview'>"+resp[k][overview]+"</p></li>")
-	        }
-	      }
-	      else {
-	        alert(resp['resp'])
-	      }
-	      
-	    }
-	    
+	  	var resp;
+
+	    function searchComp(){
+				
+				term = $('#searchTerm').val();
+				$.ajax({
+				url:'http://printhint.com/cloud/api/search/searchComp.php',
+				data: {'searchTerm': term},
+				complete:searchResults
+				});
+			}
+
+			function searchResults(transport){
+				
+				resp = transport.responseText;
+				resp = $.parseJSON(resp);
+				if (resp['status'] == 'fail'){
+					$('#resultsList').append('<h4>Nothing Found</h4>');
+				}
+				if(resp['status']=='success'){
+				  for (k in resp['data']['data']){
+				  
+				  $('#resultsList').append("<li><h4>"+resp['data']['data'][k]['name']+"</h4><a href='"+resp['data']['data'][k]['homepage']+"' id='compWebsite'>Website</a> <p id='compOverview'>"+resp['data']['data'][k]['overview']+"</p></li>");
+				  };
+				};
+			}
+				    
 	  </script>
 	  
 	</body>

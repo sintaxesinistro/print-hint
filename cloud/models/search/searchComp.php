@@ -11,7 +11,7 @@
 
   	$searchResults = dbMassData("SELECT name, homepage, overview FROM companies WHERE name LIKE '%$searchTerm%' OR category LIKE '%$searchTerm%'");
 
-  	if ($searchResults == NULL){
+  	if ($searchResults== NULL){
   		$resp = array('status'=>'fail', 'reason'=>'nothing found');
   		return $resp;
   	}	
