@@ -1,0 +1,43 @@
+{
+	"user": {
+		"id" : 1,
+		"name" : { "first" : "x", "last" : "x" },
+		"email" : { "primary" : "x", "secondary" : "x" },
+		"username" : "x",
+		"password" : "x",
+		"title" : [ "Artist", "Technician", "Hobbyist" ],
+		"contact" : { "phone" : "x", "address" : "x" }
+	},
+	"post" : {
+		"id" : 1,
+		"title" : "x",
+		"message" : "x",
+		"photo" : {
+			"title" : "x",
+			"src" : "x"
+		},
+		"attachment" : "x",
+		"href" : "x",
+		"comments" : {
+			"id" : 1,
+			"username" : "x",
+			"message" : "x",
+			"rate" : [ 1, 2, 3, 4, 5 ],
+			"href" : "x"
+		},
+	},
+	"hint" : {
+		"id" : 1,
+		"article" : "x",
+		"media" : "x",
+		"attachment" : "x",
+		"href" : "x",
+		"comments" : {
+			"id" : 1,
+			"username" : "x",
+			"message" : "x",
+			"rate" : [ 1, 2, 3, 4, 5 ],
+			"href" : "x"
+		},
+	},
+}
